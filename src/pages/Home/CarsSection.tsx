@@ -1,0 +1,52 @@
+import maseratiImg from "../../assets/images/home/maserati.jpeg";
+import porscheImg from "../../assets/images/home/porsche.jpg";
+
+const CarsSection = () => {
+  return (
+    <section className="px-12 py-32 max-w-[1280px] mx-auto">
+      <div className="flex flex-col">
+        <h2 className="font-serif my-3 font-bold text-[72px] text-headline">
+          Vrhunska vozila
+        </h2>
+        <div className="flex flex-row justify-between w-full items-end">
+          <p className="font-sans font-normal text-[18px] leading-[29px] w-[70%] text-text">
+            Sol Navis bavi se prodajom i otkupom rabljenih i egzotičnih
+            automobila, s naglaskom na kvalitetu i provjereno podrijetlo vozila
+            iz Europske unije. S više od 15 godina iskustva u uvozu, klijentima
+            nudimo pouzdana vozila te fleksibilne modele plaćanja, uključujući
+            leasing i obročno plaćanje. Naš cilj je pružiti sigurnu i
+            transparentnu kupnju uz profesionalnu podršku tijekom cijelog
+            procesa.
+          </p>
+          <a
+            href="/automobili"
+            className="font-bold tracking-[1.6px] uppercase"
+          >
+            Više...
+          </a>
+        </div>
+      </div>
+      <div className="relative h-[572px] mt-20">
+        <div className="absolute left-0 w-[calc(50%-16px)] top-0 flex flex-col">
+          <img src={maseratiImg} />
+          <div className="p-8 border-t border-primary/20 bg-[#0E0E0E]">
+            <h3 className="font-serif font-bold text-[24px] text-headline">
+              Maserati MC 20
+            </h3>
+          </div>
+        </div>
+
+        <div className="absolute right-0 w-[calc(50%-16px)] top-24 flex flex-col">
+          <img src={porscheImg} />
+          <div className="p-8 border-t border-primary/20 bg-[#0E0E0E]">
+            <h3 className="font-serif font-bold text-[24px] text-headline">
+              Porsche Taycan 4s
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default CarsSection;

@@ -1,5 +1,6 @@
 import { Link } from "react-router";
-import logo from "../assets/logo.png";
+import logo from "../assets/icons/logo.png";
+import logoText from "../assets/icons/logo_text.png";
 
 const items = [
   { label: "Automobili", to: "/automobili" },
@@ -9,17 +10,17 @@ const items = [
 
 const Navbar = () => {
   return (
-    <nav className="border-b border-[#c9a84c] shadow-[0_1px_0_0_rgba(201,168,76,0.3)] h-16 flex items-center justify-between px-4">
+    <nav className="fixed top-0 left-0 right-0 z-50 h-16 flex items-center justify-between px-4 bg-secondary/60 backdrop-blur-sm">
       <div className="flex gap-2 items-center">
         <img src={logo} className="h-8 w-8" />
-        <h4>SOL NAVIS</h4>
+        <img src={logoText} className="h-8" />
       </div>
       <ul className="flex gap-8 h-full">
         {items.map((item) => (
           <li className="h-full">
             <Link
               to={item.to}
-              className="h-full font-bold flex items-center text-xs tracking-[0.15em] uppercase hover:text-[#c9a84c] transition-colors duration-200"
+              className="h-full font-bold flex items-center text-xs tracking-[0.15em] uppercase hover:text-primary transition-colors duration-200"
             >
               {item.label}
             </Link>

@@ -1,12 +1,13 @@
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
   margin: 0;
-  background-color: #0a0a0a;
-  color: #e8d5a3;
-  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #d4af37;
+  width: 100%;
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
