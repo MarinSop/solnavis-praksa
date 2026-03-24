@@ -1,28 +1,25 @@
+import { useTranslation } from "react-i18next";
 import maseratiImg from "../../assets/images/home/maserati.jpeg";
 import porscheImg from "../../assets/images/home/porsche.jpg";
 
 const CarsSection = () => {
+  const { t } = useTranslation();
+
   return (
-    <section className="px-12 py-32 max-w-[1280px] mx-auto">
+    <section className="mt-32 mb-56 max-w-[1280px] mx-auto">
       <div className="flex flex-col">
         <h2 className="font-serif my-3 font-bold text-[72px] text-headline">
-          Vrhunska vozila
+          {t("cars.title")}
         </h2>
         <div className="flex flex-row justify-between w-full items-end">
           <p className="font-sans font-normal text-[18px] leading-[29px] w-[70%] text-text">
-            Sol Navis bavi se prodajom i otkupom rabljenih i egzotičnih
-            automobila, s naglaskom na kvalitetu i provjereno podrijetlo vozila
-            iz Europske unije. S više od 15 godina iskustva u uvozu, klijentima
-            nudimo pouzdana vozila te fleksibilne modele plaćanja, uključujući
-            leasing i obročno plaćanje. Naš cilj je pružiti sigurnu i
-            transparentnu kupnju uz profesionalnu podršku tijekom cijelog
-            procesa.
+            {t("cars.desc")}
           </p>
           <a
             href="/automobili"
-            className="font-bold tracking-[1.6px] uppercase"
+            className="font-bold tracking-[1.6px] uppercase text-primary border-b border-primary pb-1"
           >
-            Više...
+            {t("cars.cta")}
           </a>
         </div>
       </div>

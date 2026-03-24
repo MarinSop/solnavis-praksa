@@ -3,7 +3,8 @@ import carImg from "../../assets/images/home/hero-car.jpg";
 import yachtImg from "../../assets/images/home/hero-yacht.jpg";
 import investmentsImg from "../../assets/images/home/hero-investments.jpeg";
 
-const zoomPercentage = "105%";
+const hoverScale = "scale(1.05)";
+const defaultScale = "scale(1)";
 
 const Hero = () => {
   const [hovered1, setHovered1] = useState(false);
@@ -23,7 +24,7 @@ const Hero = () => {
           className="absolute left-0 top-0 w-[35%] h-full object-cover transition-transform duration-500 ease-out"
           style={{
             objectPosition: "center center",
-            transform: hovered1 ? "scale(1.05)" : "scale(1)",
+            transform: hovered1 ? hoverScale : defaultScale,
           }}
         />
       </div>
@@ -31,26 +32,34 @@ const Hero = () => {
       <div
         onMouseEnter={() => setHovered2(true)}
         onMouseLeave={() => setHovered2(false)}
-        className="absolute inset-0 transition-all duration-500 ease-out"
-        style={{
-          backgroundImage: `url(${yachtImg})`,
-          backgroundSize: hovered2 ? zoomPercentage : "100%",
-          backgroundPosition: "center",
-          clipPath: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
-        }}
-      />
+        className="absolute inset-0 overflow-hidden"
+        style={{ clipPath: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)" }}
+      >
+        <img
+          src={yachtImg}
+          className="absolute left-[25%] top-0 w-[50%] h-full object-cover transition-transform duration-500 ease-out"
+          style={{
+            objectPosition: "center center",
+            transform: hovered2 ? hoverScale : defaultScale,
+          }}
+        />
+      </div>
 
       <div
         onMouseEnter={() => setHovered3(true)}
         onMouseLeave={() => setHovered3(false)}
-        className="absolute inset-0 transition-all duration-500 ease-out"
-        style={{
-          backgroundImage: `url(${investmentsImg})`,
-          backgroundSize: hovered3 ? zoomPercentage : "100%",
-          backgroundPosition: "right center",
-          clipPath: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
-        }}
-      />
+        className="absolute inset-0 overflow-hidden"
+        style={{ clipPath: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)" }}
+      >
+        <img
+          src={investmentsImg}
+          className="absolute left-[65%] top-0 w-[35%] h-full object-cover transition-transform duration-500 ease-out"
+          style={{
+            objectPosition: "center center",
+            transform: hovered3 ? hoverScale : defaultScale,
+          }}
+        />
+      </div>
 
       <div className="pointer-events-none absolute inset-0 bg-black/40" />
 

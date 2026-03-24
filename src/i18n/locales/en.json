@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "cars": "Cars",
+    "yachts": "Yachts",
+    "investments": "Investments",
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "cars": {
+    "title": "Premium Vehicles",
+    "desc": "Sol Navis specializes in buying and selling used and exotic cars, with an emphasis on quality and verified EU origin. With over 15 years of import experience, we offer reliable vehicles and flexible payment options including leasing and installment plans. Our goal is to provide a safe and transparent purchase with professional support throughout the entire process.",
+    "cta": "Learn More"
+  },
+  "yachts": {
+    "title": "Exclusive Nautical",
+    "desc": "Specialized in yacht sales, service and charter, we provide a complete nautical service from purchase and maintenance to consulting and voyage planning. We build your trust through experience, expertise and premium support at sea and on land.",
+    "features": {
+      "sales": {
+        "title": "Yacht Sales & Representation",
+        "desc": "Authorized representatives of renowned brands including Blumar Yachts and Salona sailboats"
+      },
+      "service": {
+        "title": "Service & Maintenance",
+        "desc": "Complete vessel care from repairs to annual maintenance and transfers"
+      },
+      "charter": {
+        "title": "Charter & Consulting",
+        "desc": "Vessel rental, charter services and expert nautical and shipbuilding consulting"
+      }
+    },
+    "cta": "Learn More"
+  },
+  "investments": {
+    "title": "Investments",
+    "subtitle": "A reliable partner for real estate investments on the Adriatic coast and beyond.",
+    "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection with expert market analysis.",
+    "service1": {
+      "title": "Design & Construction",
+      "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection."
+    },
+    "service2": {
+      "title": "Investment Consulting",
+      "desc": "We provide expert real estate market analysis and guide you through the process of profitable investments in houses and apartments."
+    }
+  },
+  "footer": {
+    "nav": "Navigation",
+    "social": "Social Media",
+    "locations": "Office / Location",
+    "office": "Office",
+    "showroom": "Showroom"
+  },
+  "error": {
+    "title": "Page Not Found",
+    "desc": "The page you are looking for does not exist.",
+    "back": "Back to Home"
+  }
+}

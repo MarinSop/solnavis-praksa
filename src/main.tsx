@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import "./i18n/index.ts";
 import "virtual:uno.css";
 import { RouterProvider } from "react-router";
 import { router } from "./router";

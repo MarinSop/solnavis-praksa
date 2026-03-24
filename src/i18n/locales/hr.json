@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "cars": "Automobili",
+    "yachts": "Jahte",
+    "investments": "Investicije",
+    "home": "Početna",
+    "about": "O nama",
+    "contact": "Kontakt"
+  },
+  "cars": {
+    "title": "Vrhunska vozila",
+    "desc": "Sol Navis bavi se prodajom i otkupom rabljenih i egzotičnih automobila, s naglaskom na kvalitetu i provjereno podrijetlo vozila iz Europske unije. S više od 15 godina iskustva u uvozu, klijentima nudimo pouzdana vozila te fleksibilne modele plaćanja, uključujući leasing i obročno plaćanje. Naš cilj je pružiti sigurnu i transparentnu kupnju uz profesionalnu podršku tijekom cijelog procesa.",
+    "cta": "Saznaj više"
+  },
+  "yachts": {
+    "title": "Ekskluzivna nautika",
+    "desc": "Specijalizirani za prodaju, servis i charter plovila, pružamo kompletnu nautičku uslugu od kupnje i održavanja do savjetovanja i organizacije plovidbe. Vaše povjerenje gradimo kroz iskustvo, stručnost i vrhunsku podršku na moru i kopnu.",
+    "features": {
+      "sales": {
+        "title": "Prodaja i zastupstvo plovila",
+        "desc": "Ovlašteni zastupnici renomiranih brendova poput Blumar Yachts i Salona jedrilica"
+      },
+      "service": {
+        "title": "Servis i održavanje",
+        "desc": "Kompletna briga o plovilu od popravaka do godišnjeg održavanja i transfera"
+      },
+      "charter": {
+        "title": "Charter i savjetovanje",
+        "desc": "Najam plovila, charter usluge i stručni nautički te brodograđevni konzulting"
+      }
+    },
+    "cta": "Saznaj više"
+  },
+  "investments": {
+    "title": "Investicije",
+    "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
+    "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta.",
+    "service1": {
+      "title": "Projektiranje i Gradnja",
+      "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost."
+    },
+    "service2": {
+      "title": "Investicijsko Savjetovanje",
+      "desc": "Pružamo stručnu analizu tržišta nekretnina i vodimo vas kroz proces profitabilnih ulaganja u projekte kuća i stanova."
+    }
+  },
+  "footer": {
+    "nav": "Navigacija",
+    "social": "Društvene mreže",
+    "locations": "Ured / Lokacija",
+    "office": "Ured",
+    "showroom": "Salon"
+  },
+  "error": {
+    "title": "Stranica nije pronađena",
+    "desc": "Stranica koju tražite ne postoji.",
+    "back": "Povratak na početnu"
+  }
+}
