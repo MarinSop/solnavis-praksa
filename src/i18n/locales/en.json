@@ -10,11 +10,35 @@
   "cars": {
     "title": "Premium Vehicles",
     "desc": "Sol Navis specializes in buying and selling used and exotic cars, with an emphasis on quality and verified EU origin. With over 15 years of import experience, we offer reliable vehicles and flexible payment options including leasing and installment plans. Our goal is to provide a safe and transparent purchase with professional support throughout the entire process.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "hero": {
+      "title": "Premium Vehicles from the Heart of Europe",
+      "desc": "Specialized importer of used and exotic cars with verified European Union origin.",
+      "cta": "Contact Us for an Inquiry",
+      "sub": "We respond within 24h"
+    },
+    "financing": {
+      "credit": {
+        "title": "Card Payments",
+        "desc": "We enable card payments in up to 60 installments via Premium Visa and Diners cards with maximum flexibility for our clients."
+      },
+      "leasing": {
+        "title": "Leasing Partners",
+        "desc": "We work with all leasing companies in Croatia, with notable partnerships with OTP Leasing and Erste Leasing."
+      },
+      "transport": {
+        "title": "EU Transport",
+        "desc": "Transport service from any part of the EU. Complete handling of documentation, customs clearance and homologation through to registration."
+      }
+    }
   },
   "yachts": {
     "title": "Exclusive Nautical",
     "desc": "Specialized in yacht sales, service and charter, we provide a complete nautical service from purchase and maintenance to consulting and voyage planning. We build your trust through experience, expertise and premium support at sea and on land.",
+    "hero": {
+      "title": "The World of Nautical Sales",
+      "desc": "Your partner in the world of luxury vessels. From authorized Blumar Yachts representation to complete vessel care on the Adriatic."
+    },
     "features": {
       "sales": {
         "title": "Yacht Sales & Representation",
@@ -29,7 +53,57 @@
         "desc": "Vessel rental, charter services and expert nautical and shipbuilding consulting"
       }
     },
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "about": {
+      "label": "About Us & Our Expertise",
+      "title": "Specialists in Premium Nautical",
+      "desc": "Sol Navis is a leading expert in yacht sales and servicing on the Adriatic. Our team combines passion for the sea with top technical knowledge.",
+      "cta": {
+        "title": "Looking for a vessel?",
+        "desc": "Browse our current selection of new and used vessels on our official store.",
+        "btn": "Sol Navis Njuškalo"
+      }
+    },
+    "brands": {
+      "blumar": {
+        "title": "Blumar Yachts",
+        "desc": "Authorized representative for Croatia, Bosnia & Herzegovina, Montenegro and Serbia. Premium Italian design and performance."
+      },
+      "salona": {
+        "title": "Salona & Maestral",
+        "desc": "Representation for renowned Salona sailboats and legendary Maestral inflatable boats."
+      }
+    },
+    "services": {
+      "title": "Technical Services",
+      "intervention": {
+        "title": "Sea Interventions",
+        "desc": "Fast interventions and vessel towing (YIC SEA ASSIST holder). Our team is ready to respond in the shortest possible time."
+      },
+      "repair": {
+        "title": "Repairs & Maintenance",
+        "desc": "Complete hull, interior, mechanical and electrical repairs. Authorized REX and BOAT CARE partners."
+      },
+      "assessment": {
+        "title": "Damage & Value Assessment",
+        "desc": "Expert damage inspection and precise market value assessment for insurance or purchase purposes."
+      }
+    },
+    "consulting": {
+      "title": "Consulting & Support",
+      "desc": "We guide you through vessel registration, import/export documentation and offer expert consulting for shipbuilding and charter management.",
+      "broker": "International broker network",
+      "mediation": "Purchase & sale mediation",
+      "legal": "Legal support & paperwork"
+    },
+    "charter": {
+      "title": "Charter & Education",
+      "desc": "From luxury weekly rentals to professional training. We offer skipper courses and boat captain licenses."
+    },
+    "partners": {
+      "title": "Key Partners",
+      "desc": "We work with the most trusted names in the industry to ensure the highest level of service."
+    }
   },
   "investments": {
     "title": "Investments",

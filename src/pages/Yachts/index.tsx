@@ -1,8 +1,14 @@
+import AboutSection from "./AboutSection";
+import ConsultingSection from "./ConsultingSection";
+import HeroSection from "./HeroSection";
+
 const Yachts = () => {
   return (
-    <div>
-      <h1>Jahte</h1>
-    </div>
+    <>
+      <HeroSection />
+      <AboutSection />
+      <ConsultingSection />
+    </>
   );
 };
 export default Yachts;

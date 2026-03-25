@@ -1,12 +1,14 @@
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
+import { facebookUrl, instagramUrl, tiktokUrl } from "@/constants/urls";
 
 const Footer = () => {
   const { t } = useTranslation();
 
   const socials = [
-    { label: "Instagram", href: "https://www.instagram.com/sol_navis" },
-    { label: "Facebook", href: "https://www.facebook.com/solnavis" },
+    { label: "Instagram", href: instagramUrl },
+    { label: "Facebook", href: facebookUrl },
+    { label: "Tiktok", href: tiktokUrl },
   ];
 
   const companyInfo = [

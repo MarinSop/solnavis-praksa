@@ -10,11 +10,35 @@
   "cars": {
     "title": "Vrhunska vozila",
     "desc": "Sol Navis bavi se prodajom i otkupom rabljenih i egzotičnih automobila, s naglaskom na kvalitetu i provjereno podrijetlo vozila iz Europske unije. S više od 15 godina iskustva u uvozu, klijentima nudimo pouzdana vozila te fleksibilne modele plaćanja, uključujući leasing i obročno plaćanje. Naš cilj je pružiti sigurnu i transparentnu kupnju uz profesionalnu podršku tijekom cijelog procesa.",
-    "cta": "Saznaj više"
+    "cta": "Saznaj više",
+    "hero": {
+      "title": "Dovozimo aute po narudžbi kupaca",
+      "desc": "Nudimo kompletnu uslugu transporta iz Europske unije i vodimo cijeli proces do registracije. Naše dugogodišnje iskustvo jamči sigurnost i vrhunsku razinu concierge usluge. Mogući je i otkup vašeg vozila.",
+      "cta": "Posjetite našu ponudu na Njuškalu",
+      "sub": "Odgovaramo u roku 24h"
+    },
+    "financing": {
+      "credit": {
+        "title": "Kartična plaćanja",
+        "desc": "Omogućujemo kartična plaćanja do 60 rata putem Premium Visa i Diners kartica uz maksimalnu fleksibilnost za naše klijente."
+      },
+      "leasing": {
+        "title": "Leasing Partneri",
+        "desc": "Suradnja sa svim leasing kućama u Hrvatskoj. Posebno ističemo partnerstva s OTP leasingom i Erste leasingom."
+      },
+      "transport": {
+        "title": "EU Transport",
+        "desc": "Usluga transporta iz bilo kojeg dijela EU. Kompletna briga o dokumentaciji, carinjenju i homologaciji do same registracije."
+      }
+    }
   },
   "yachts": {
     "title": "Ekskluzivna nautika",
     "desc": "Specijalizirani za prodaju, servis i charter plovila, pružamo kompletnu nautičku uslugu od kupnje i održavanja do savjetovanja i organizacije plovidbe. Vaše povjerenje gradimo kroz iskustvo, stručnost i vrhunsku podršku na moru i kopnu.",
+    "hero": {
+      "title": "Svijet Nautike i Prodaje",
+      "desc": "Vaš partner u svijetu luksuznih plovila. Od ovlaštenog zastupstva za Blumar Yachts do kompletne brige o vašem plovilu na Jadranu."
+    },
     "features": {
       "sales": {
         "title": "Prodaja i zastupstvo plovila",
@@ -29,7 +53,57 @@
         "desc": "Najam plovila, charter usluge i stručni nautički te brodograđevni konzulting"
       }
     },
-    "cta": "Saznaj više"
+    "cta": "Saznaj više",
+    "about": {
+      "label": "O nama i naša ekspertiza",
+      "title": "Specijalisti za Vrhunsku Nautiku",
+      "desc": "Sol Navis je vodeći stručnjak u prodaji i servisiranju plovila na Jadranu. Naš tim spaja strast prema moru s vrhunskim tehničkim znanjem.",
+      "cta": {
+        "title": "Tražite plovilo?",
+        "desc": "Pregledajte našu aktualnu ponudu novih i rabljenih plovila na službenoj trgovini.",
+        "btn": "Sol Navis Njuškalo"
+      }
+    },
+    "brands": {
+      "blumar": {
+        "title": "Blumar Yachts",
+        "desc": "Ovlašteni zastupnik za tržišta Hrvatske, BiH, Crne Gore i Srbije. Vrhunski talijanski dizajn i performanse."
+      },
+      "salona": {
+        "title": "Salona & Maestral",
+        "desc": "Zastupstvo za renomirane Salona jedrilice i legendarne Maestral gumene čamce."
+      }
+    },
+    "services": {
+      "title": "Tehničke Usluge",
+      "intervention": {
+        "title": "Intervencije na Moru",
+        "desc": "Brze intervencije i tegljenje plovila (YIC SEA ASSIST holder). Naš tim je spreman reagirati u najkraćem mogućem roku."
+      },
+      "repair": {
+        "title": "Popravci i Održavanje",
+        "desc": "Kompletni popravci trupa, interijera, mehanike i elektrike. Ovlašteni REX i BOAT CARE partneri."
+      },
+      "assessment": {
+        "title": "Procjena Štete i Vrijednosti",
+        "desc": "Stručna defektaža oštećenja i precizna procjena tržišne vrijednosti plovila za osiguranje ili kupoprodaju."
+      }
+    },
+    "consulting": {
+      "title": "Savjetovanje i Podrška",
+      "desc": "Vodimo vas kroz proces registracije plovila, uvozno-izvozne dokumentacije te nudimo stručni konzalting za brodogradnju i charter management.",
+      "broker": "Internacionalna mreža brokera",
+      "mediation": "Kupoprodajno posredovanje",
+      "legal": "Pravna podrška i papiri"
+    },
+    "charter": {
+      "title": "Charter i Edukacija",
+      "desc": "Od luksuznih tjednih najmova do profesionalne obuke. Nudimo skipper treninge i tečajeve za voditelje brodice."
+    },
+    "partners": {
+      "title": "Ključni Partneri",
+      "desc": "Surađujemo s najpouzdanijim imenima u industriji kako bismo osigurali najvišu razinu usluge."
+    }
   },
   "investments": {
     "title": "Investicije",

@@ -3,63 +3,51 @@ import carImg from "../../assets/images/home/hero-car.jpg";
 import yachtImg from "../../assets/images/home/hero-yacht.jpg";
 import investmentsImg from "../../assets/images/home/hero-investments.jpeg";
 
-const hoverScale = "scale(1.05)";
-const defaultScale = "scale(1)";
-
 const Hero = () => {
-  const [hovered1, setHovered1] = useState(false);
-  const [hovered2, setHovered2] = useState(false);
-  const [hovered3, setHovered3] = useState(false);
+  const [hovered, setHovered] = useState<number | null>(null);
+
+  const sections = [
+    {
+      img: carImg,
+      clip: "polygon(0 0, 35% 0, 25% 100%, 0 100%)",
+      imgClass: "absolute left-0 top-0 w-[35%] h-full",
+      index: 0,
+    },
+    {
+      img: yachtImg,
+      clip: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
+      imgClass: "absolute left-[25%] top-0 w-[50%] h-full",
+      index: 1,
+    },
+    {
+      img: investmentsImg,
+      clip: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
+      imgClass: "absolute left-[65%] top-0 w-[35%] h-full",
+      index: 2,
+    },
+  ];
 
   return (
     <div className="relative w-full h-[80vh] pt-16">
-      <div
-        onMouseEnter={() => setHovered1(true)}
-        onMouseLeave={() => setHovered1(false)}
-        className="absolute inset-0 overflow-hidden"
-        style={{ clipPath: "polygon(0 0, 35% 0, 25% 100%, 0 100%)" }}
-      >
-        <img
-          src={carImg}
-          className="absolute left-0 top-0 w-[35%] h-full object-cover transition-transform duration-500 ease-out"
-          style={{
-            objectPosition: "center center",
-            transform: hovered1 ? hoverScale : defaultScale,
-          }}
-        />
-      </div>
-
-      <div
-        onMouseEnter={() => setHovered2(true)}
-        onMouseLeave={() => setHovered2(false)}
-        className="absolute inset-0 overflow-hidden"
-        style={{ clipPath: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)" }}
-      >
-        <img
-          src={yachtImg}
-          className="absolute left-[25%] top-0 w-[50%] h-full object-cover transition-transform duration-500 ease-out"
-          style={{
-            objectPosition: "center center",
-            transform: hovered2 ? hoverScale : defaultScale,
-          }}
-        />
-      </div>
-
-      <div
-        onMouseEnter={() => setHovered3(true)}
-        onMouseLeave={() => setHovered3(false)}
-        className="absolute inset-0 overflow-hidden"
-        style={{ clipPath: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)" }}
-      >
-        <img
-          src={investmentsImg}
-          className="absolute left-[65%] top-0 w-[35%] h-full object-cover transition-transform duration-500 ease-out"
-          style={{
-            objectPosition: "center center",
-            transform: hovered3 ? hoverScale : defaultScale,
-          }}
-        />
-      </div>
+      {sections.map((s) => (
+        <div
+          key={s.index}
+          onMouseEnter={() => setHovered(s.index)}
+          onMouseLeave={() => setHovered(null)}
+          className="absolute inset-0 overflow-hidden"
+          style={{ clipPath: s.clip }}
+        >
+          <img
+            src={s.img}
+            className={`${s.imgClass} object-cover transition-all duration-700 ease-out`}
+            style={{
+              objectPosition: "center center",
+              transform: hovered === s.index ? "scale(1.05)" : "scale(1)",
+              filter: hovered === s.index ? "grayscale(0)" : "grayscale(1)",
+            }}
+          />
+        </div>
+      ))}
 
       <div className="pointer-events-none absolute inset-0 bg-black/40" />
 
@@ -100,7 +88,6 @@ const Hero = () => {
           strokeWidth="1"
           strokeOpacity="0.4"
         />
-
         <line
           x1="71%"
           y1="0"

@@ -1,8 +1,14 @@
+import FinancingSection from "./FinancingSection";
+import GridSection from "./GridSection";
+import HeroSection from "./HeroSection";
+
 const Cars = () => {
   return (
-    <div>
-      <h1>Automobili</h1>
-    </div>
+    <>
+      <HeroSection />
+      <FinancingSection />
+      <GridSection />
+    </>
   );
 };
 export default Cars;

@@ -19,7 +19,7 @@ const Navbar = () => {
   const linkClass = (to: string) =>
     `h-full font-bold flex items-center text-xs uppercase transition-colors duration-200 ${
       location.pathname === to
-        ? "text-primary"
+        ? "text-primary hover:text-primary visited:text-primary"
         : "visited:text-headline text-headline hover:text-primary"
     }`;
 
