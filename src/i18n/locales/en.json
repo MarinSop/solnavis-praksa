@@ -12,9 +12,9 @@
     "desc": "Sol Navis specializes in buying and selling used and exotic cars, with an emphasis on quality and verified EU origin. With over 15 years of import experience, we offer reliable vehicles and flexible payment options including leasing and installment plans. Our goal is to provide a safe and transparent purchase with professional support throughout the entire process.",
     "cta": "Learn More",
     "hero": {
-      "title": "Premium Vehicles from the Heart of Europe",
-      "desc": "Specialized importer of used and exotic cars with verified European Union origin.",
-      "cta": "Contact Us for an Inquiry",
+      "title": "We import cars on customer order",
+      "desc": "We offer a complete transport service from the European Union and manage the entire process through to registration. Our long-standing experience guarantees safety and a premium concierge service. Vehicle buyout is also available.",
+      "cta": "Visit our offer on Njuškalo",
       "sub": "We respond within 24h"
     },
     "financing": {
@@ -106,6 +106,21 @@
     }
   },
   "investments": {
+    "directions": {
+      "title": "Investment Directions",
+      "residential": "Residential Projects",
+      "residentialDesc": "We specialize in developing exclusive apartment units and modern homes that combine high aesthetics with a Mediterranean feel. Focus is on premium locations along the Adriatic coast.",
+      "residentialTag": "Real Estate",
+      "strategic": "Strategic Projects",
+      "strategicDesc": "We explore and realize opportunities beyond classic residential construction, including land development, commercial spaces and innovative tourism concepts with high growth potential.",
+      "strategicTag": "Various other projects"
+    },
+    "hero": {
+      "title": "Sol Navis",
+      "titleAccent": "Investments",
+      "tagline": "We develop visions that create lasting value.",
+      "desc": "Sol Navis invests in various house and apartment construction projects in the most sought-after locations on the Adriatic. Our goal is to ensure a safe and profitable return for our partners through transparent project management."
+    },
     "title": "Investments",
     "subtitle": "A reliable partner for real estate investments on the Adriatic coast and beyond.",
     "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection with expert market analysis.",
@@ -118,12 +133,99 @@
       "desc": "We provide expert real estate market analysis and guide you through the process of profitable investments in houses and apartments."
     }
   },
+  "contact": {
+    "inquiry": {
+      "title": "Initiate Contact",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Alexander Sterling",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "client@private.com",
+      "interestLabel": "Nature of Interest",
+      "cars": "Cars",
+      "yachts": "Yachts",
+      "investments": "Investments",
+      "messageLabel": "Your Brief",
+      "messagePlaceholder": "Describe your requirements...",
+      "submit": "Submit Inquiry"
+    },
+    "info": {
+      "hqLabel": "Office",
+      "hqStreet": "STANKA VRAZA 15",
+      "hqCity": "21000 Split, Croatia",
+      "showroomLabel": "Salon & Showroom",
+      "showroomStreet": "TRENKOVA 1",
+      "showroomCity": "Split Luxury Quarter",
+      "phoneLabel": "Direct Line",
+      "phone": "+385 (0) 91 123 4567",
+      "phoneHours": "Mon - Fri: 09:00 - 17:00",
+      "registryLabel": "Corporate Registry",
+      "entity": "Entity",
+      "vatId": "VAT ID",
+      "otpBank": "OTP Banka",
+      "pbzBank": "PBZ Banka"
+    },
+    "hero": {
+      "title": "Contact",
+      "desc": "Our advisors are at your disposal for all inquiries regarding luxury acquisitions and services.",
+      "emailLabel": "Central Inquiries",
+      "email": "info@sol-navis.hr"
+    }
+  },
   "footer": {
     "nav": "Navigation",
     "social": "Social Media",
     "locations": "Office / Location",
     "office": "Office",
     "showroom": "Showroom"
+  },
+  "about": {
+    "network": {
+      "label": "Network of Trust",
+      "partners": [
+        "Yacht-pool",
+        "Triglav",
+        "Sail Croatia",
+        "Navigare Yachting",
+        "Nava",
+        "Adriatic Sailing",
+        "Salona Charter",
+        "Ad Brodovi",
+        "Maestral",
+        "Croatia Yacht Club"
+      ]
+    },
+    "investments": {
+      "label": "Development & Construction",
+      "title": "Sol Navis Investments",
+      "desc": "We shape the future of modern living through strategic investments in real estate and construction projects.",
+      "housing": "Residential Development",
+      "housingDesc": "We specialize in developing high-quality residential units and apartments in the most attractive locations along the Adriatic coast.",
+      "consulting": "Consulting",
+      "consultingDesc": "We provide investment advisory services and project management from initial concept to final realization and market sale."
+    },
+    "cars": {
+      "label": "Premium Vehicles",
+      "title": "Automobiles",
+      "experience": "15+ Years of Experience",
+      "desc": "Our automotive department is focused on the sale and purchase of premium used vehicles. We specialize in custom imports, guiding clients through the entire process — from EU selection to registration in Croatia.",
+      "logistics": "Logistics Support",
+      "logisticsDesc": "Complete transport and administration service, including all customs and tax procedures upon import.",
+      "payment": "Payment Flexibility",
+      "paymentDesc": "Cooperation with all major leasing companies (OTP, Erste) with the option of card payments in up to 60 installments."
+    },
+    "nautics": {
+      "label": "Vessel Department",
+      "title": "Nautical & Maritime",
+      "p1": "Sol Navis d.o.o. Split is a company specialized in vessel sales and service, representing vessel brands for Croatia, BiH, Montenegro and Serbia — Blumar yachts, Salona sailboats and Maestral inflatables.",
+      "p2": "We are HRB-authorized for repairs of plastic and wooden vessels, working with all insurance companies for damage assessments. Our Sea Assistance service is available 24/7.",
+      "partners": "Strategic Partners",
+      "accreditations": "Accreditations",
+      "accreditationsDesc": "HRB Authorized Service Center for vessel repair and maintenance."
+    },
+    "hero": {
+      "title": "About Us",
+      "desc": "Comprehensive solutions in nautical, car sales and investments, founded on decades of trust."
+    }
   },
   "error": {
     "title": "Page Not Found",

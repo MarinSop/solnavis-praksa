@@ -106,6 +106,21 @@
     }
   },
   "investments": {
+    "directions": {
+      "title": "Investicijski Smjerovi",
+      "residential": "Stambeni Projekti",
+      "residentialDesc": "Specijalizirani smo za razvoj ekskluzivnih apartmanskih jedinica i suvremenih kuća koje spajaju visoku estetiku s mediteranskim ugođajem. Fokus je na premium lokacijama uz samu obalu Jadrana.",
+      "residentialTag": "Nekretnine",
+      "strategic": "Strateški Projekti",
+      "strategicDesc": "Istražujemo i realiziramo prilike izvan klasične stanogradnje, uključujući razvoj građevinskog zemljišta, poslovnih prostora i inovativnih turističkih koncepata s visokim potencijalom rasta.",
+      "strategicTag": "Razni drugi projekti"
+    },
+    "hero": {
+      "title": "Sol Navis",
+      "titleAccent": "Investicije",
+      "tagline": "Razvijamo vizije koje stvaraju trajnu vrijednost.",
+      "desc": "Sol Navis investira u razne projekte gradnje kuća i apartmana na najtraženijim lokacijama Jadrana. Naš cilj je osigurati siguran i profitabilan povrat za naše partnere kroz transparentno vođenje projekata."
+    },
     "title": "Investicije",
     "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
     "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta.",
@@ -118,12 +133,99 @@
       "desc": "Pružamo stručnu analizu tržišta nekretnina i vodimo vas kroz proces profitabilnih ulaganja u projekte kuća i stanova."
     }
   },
+  "contact": {
+    "inquiry": {
+      "title": "Pošaljite Upit",
+      "nameLabel": "Ime i Prezime",
+      "namePlaceholder": "Ivan Horvat",
+      "emailLabel": "Email Adresa",
+      "emailPlaceholder": "klijent@privatno.com",
+      "interestLabel": "Vrsta Interesa",
+      "cars": "Automobili",
+      "yachts": "Jahte",
+      "investments": "Investicije",
+      "messageLabel": "Vaša Poruka",
+      "messagePlaceholder": "Opišite vaše zahtjeve...",
+      "submit": "Pošalji Upit"
+    },
+    "info": {
+      "hqLabel": "Ured",
+      "hqStreet": "STANKA VRAZA 15",
+      "hqCity": "21000 Split, Hrvatska",
+      "showroomLabel": "Salon i Izložbeni prostor",
+      "showroomStreet": "TRENKOVA 1",
+      "showroomCity": "Split",
+      "phoneLabel": "Direktna linija",
+      "phone": "+385 (0) 91 123 4567",
+      "phoneHours": "Pon - Pet: 09:00 - 17:00",
+      "registryLabel": "Poslovni registar",
+      "entity": "Entitet",
+      "vatId": "PDV ID",
+      "otpBank": "OTP Banka",
+      "pbzBank": "PBZ Banka"
+    },
+    "hero": {
+      "title": "Kontakt",
+      "desc": "Naši savjetnici stoje vam na raspolaganju za sve upite vezane uz luksuzne akvizicije i usluge.",
+      "emailLabel": "Središnji upiti",
+      "email": "info@sol-navis.hr"
+    }
+  },
   "footer": {
     "nav": "Navigacija",
     "social": "Društvene mreže",
     "locations": "Ured / Lokacija",
     "office": "Ured",
     "showroom": "Salon"
+  },
+  "about": {
+    "network": {
+      "label": "Mreža Povjerenja",
+      "partners": [
+        "Yacht-pool",
+        "Triglav",
+        "Sail Croatia",
+        "Navigare Yachting",
+        "Nava",
+        "Adriatic Sailing",
+        "Salona Charter",
+        "Ad Brodovi",
+        "Maestral",
+        "Croatia Yacht Club"
+      ]
+    },
+    "investments": {
+      "label": "Razvoj i Izgradnja",
+      "title": "Sol Navis Investicije",
+      "desc": "Oblikujemo budućnost modernog stanovanja kroz strateška ulaganja u nekretnine i građevinske projekte.",
+      "housing": "Stambeni Razvoj",
+      "housingDesc": "Specijalizirani smo za razvoj visokokvalitetnih stambenih jedinica i apartmana na najatraktivnijim lokacijama duž jadranske obale.",
+      "consulting": "Konzalting",
+      "consultingDesc": "Pružamo usluge investicijskog savjetovanja i vođenja projekata od inicijalne ideje do finalne realizacije i prodaje na tržištu."
+    },
+    "cars": {
+      "label": "Premium Vozila",
+      "title": "Automobili",
+      "experience": "15+ Godina Iskustva",
+      "desc": "Naš automobilski odjel fokusiran je na prodaju i otkup premium rabljenih vozila. Specijalizirani smo za uvoz po narudžbi, vodeći klijenta kroz cijeli proces — od selekcije u EU do registracije u Hrvatskoj.",
+      "logistics": "Logistička Podrška",
+      "logisticsDesc": "Kompletna usluga transporta i administracije, uključujući sve carinske i porezne procedure pri uvozu.",
+      "payment": "Fleksibilnost Plaćanja",
+      "paymentDesc": "Suradnja sa svim vodećim leasing kućama (OTP, Erste) uz mogućnost kartičnog plaćanja do 60 rata."
+    },
+    "nautics": {
+      "label": "Odjel Plovila",
+      "title": "Nautika i Pomorstvo",
+      "p1": "Sol Navis d.o.o. Split je tvrtka specijalizirana za prodaju i servis plovila, zastupanje brandova plovila za RH, BIH, MNG i SRB za brand Blumar yachts, brand Salona sailboats i Maestral gumenjaci.",
+      "p2": "Ovlašteni smo od strane HRB-a za popravke plastičnih i drvenih brodova, radimo za sve osiguravajuće kuće i procjene šteta na plovilima. Naša usluga Sea Assistance dostupna je 24/7.",
+      "partners": "Strateški Partneri",
+      "accreditations": "Akreditacije",
+      "accreditationsDesc": "HRB Ovlašteni Servisni Centar za reparaciju i održavanje plovila."
+    },
+    "hero": {
+      "title": "O Nama",
+      "desc": "Sveobuhvatna rješenja u nautici, prodaji automobila i investicijama, utemeljena na desetljećima povjerenja."
+    }
   },
   "error": {
     "title": "Stranica nije pronađena",

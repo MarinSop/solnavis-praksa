@@ -1,8 +1,22 @@
+import EditorialDivider from "@/components/EditorialDivider";
+import CarsSection from "./CarsSection";
+import HeroSection from "./HeroSection";
+import InvestmentsSection from "./InvestmentsSection";
+import NauticsSection from "./NauticsSection";
+import NetworkSection from "./NetworkSection";
+
 const About = () => {
   return (
-    <div>
-      <h1>O nama</h1>
-    </div>
+    <>
+      <HeroSection />
+      <NauticsSection />
+      <EditorialDivider />
+      <CarsSection />
+      <EditorialDivider />
+      <InvestmentsSection />
+      <EditorialDivider />
+      <NetworkSection />
+    </>
   );
 };
 export default About;

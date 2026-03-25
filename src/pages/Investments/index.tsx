@@ -1,8 +1,12 @@
+import DirectionsSection from "./DirectionsSection";
+import HeroSection from "./HeroSection";
+
 const Investments = () => {
   return (
-    <div>
-      <h1>Investicije</h1>
-    </div>
+    <>
+      <HeroSection />
+      <DirectionsSection />
+    </>
   );
 };
 export default Investments;
