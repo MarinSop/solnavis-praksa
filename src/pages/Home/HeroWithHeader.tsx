@@ -9,11 +9,11 @@ const HeroWithHeader = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <img
           src={logo}
-          className="md:w-[16rem] drop-shadow-[0_0_10px_rgba(0,0,0,0.7)]"
+          className="w-36 md:w-[16rem] drop-shadow-[0_0_10px_rgba(0,0,0,0.7)]"
         />
         <img
           src={logoText}
-          className="md:w-[48rem] drop-shadow-[0_0_10px_rgba(0,0,0,0.7)]"
+          className="w-64 sm:w-72 md:w-[48rem] drop-shadow-[0_0_10px_rgba(0,0,0,0.7)]"
         />
       </div>
     </section>

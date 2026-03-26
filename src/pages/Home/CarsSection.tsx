@@ -7,28 +7,26 @@ const CarsSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="mt-32 mb-56 max-w-[1280px] mx-auto">
+    <section className="mt-12 md:mt-32 mb-24 md:mb-56 max-w-[1280px] mx-auto px-6 lg:px-12">
       <div className="flex flex-col">
-        <h2 className="font-serif my-3 font-bold text-[72px] text-headline">
+        <h2 className="font-serif my-3 font-bold text-4xl md:text-[72px] text-headline">
           {t("cars.title")}
         </h2>
-        <div className="flex flex-row justify-between w-full items-end">
-          <p className="font-sans font-normal text-[18px] leading-[29px] w-[70%] text-text">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-4">
+          <p className="font-sans font-normal text-[18px] leading-[29px] md:w-[70%] text-text">
             {t("cars.desc")}
           </p>
           <a
             href="/automobili"
-            className="font-bold tracking-[1.6px] visited:text-primary uppercase text-primary border-b border-primary pb-1"
+            className="font-bold tracking-[1.6px] visited:text-primary uppercase text-primary border-b border-primary pb-1 shrink-0"
           >
             {t("cars.cta")}
           </a>
         </div>
       </div>
-      <div className="relative h-[572px] mt-20">
-        <div className="absolute left-0 w-[calc(50%-16px)] top-0">
-          <CarCard name="Maserati MC 20" img={maseratiImg} />
-        </div>
-        <div className="absolute right-0 w-[calc(50%-16px)] top-24">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-20">
+        <CarCard name="Maserati MC 20" img={maseratiImg} />
+        <div className="md:mt-24">
           <CarCard name="Porsche Taycan 4s" img={porscheImg} />
         </div>
       </div>

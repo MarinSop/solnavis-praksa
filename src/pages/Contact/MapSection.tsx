@@ -15,8 +15,8 @@ const MapSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="px-12 max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <section className="px-6 lg:px-12 max-w-7xl mx-auto pb-12 md:pb-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {MAPS.map(({ labelKey, src }) => (
           <div key={labelKey}>
             <p className="text-primary text-[10px] uppercase tracking-[0.3em] mb-4">
@@ -24,7 +24,7 @@ const MapSection = () => {
             </p>
             <iframe
               src={src}
-              className="w-full h-80"
+              className="w-full h-56 md:h-80"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />

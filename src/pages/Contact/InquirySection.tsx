@@ -10,9 +10,9 @@ const InquirySection = () => {
   ];
 
   return (
-    <section className="px-12 max-w-7xl mx-auto mb-32">
-      <div className="bg-secondary-light p-12 border-b border-primary">
-        <h2 className="font-headline text-3xl text-primary mb-12">
+    <section className="px-6 lg:px-12 max-w-7xl mx-auto mb-16 md:mb-32">
+      <div className="bg-secondary-light p-6 md:p-12 border-b border-primary">
+        <h2 className="font-headline text-2xl md:text-3xl text-primary mb-8 md:mb-12">
           {t("contact.inquiry.title")}
         </h2>
         <form className="space-y-10">

@@ -7,8 +7,8 @@ const NetworkSection = () => {
   }) as string[];
 
   return (
-    <section className="mb-32 text-center max-w-7xl mx-auto">
-      <span className="text-primary text-xs uppercase tracking-[0.3em] mb-16 block">
+    <section className="mb-16 md:mb-32 text-center max-w-7xl mx-auto px-6 lg:px-12">
+      <span className="text-primary text-xs uppercase tracking-[0.3em] mb-8 md:mb-16 block">
         {t("about.network.label")}
       </span>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-y-12 gap-x-8">

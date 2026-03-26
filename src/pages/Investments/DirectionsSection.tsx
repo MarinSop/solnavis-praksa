@@ -19,12 +19,12 @@ const DirectionsSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-7xl mx-auto px-12 mb-24">
-      <div className="flex items-center gap-6 mb-16">
-        <h2 className="font-headline text-3xl tracking-widest uppercase text-primary whitespace-nowrap">
+    <section className="max-w-7xl mx-auto px-4 md:px-12 mb-16 md:mb-24">
+      <div className="flex items-center gap-6 mb-10 md:mb-16">
+        <h2 className="font-headline text-xl md:text-3xl tracking-widest uppercase text-primary whitespace-nowrap">
           {t("investments.directions.title")}
         </h2>
-        <div className="flex-grow h-px bg-primary" />
+        <div className="hidden md:block flex-grow h-px bg-primary" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {CARDS.map(({ icon, titleKey, descKey }) => (

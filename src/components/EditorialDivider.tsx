@@ -10,7 +10,7 @@ const EditorialDivider = ({ vertical = false }: EditorialDividerProps) => {
   }
 
   return (
-    <div className="h-px mb-32 opacity-30 bg-gradient-to-r from-transparent via-primary to-transparent" />
+    <div className="h-px mb-16 opacity-30 bg-gradient-to-r from-transparent via-primary to-transparent" />
   );
 };
 

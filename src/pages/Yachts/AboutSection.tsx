@@ -38,14 +38,14 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="max-w-[1280px] mx-auto px-12 py-32 grid grid-cols-12 gap-24 items-start">
+    <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 md:pt-12 pb-16 md:pb-32 grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 items-start">
       {/* Lijevo */}
-      <div className="col-span-7 flex flex-col gap-12">
+      <div className="md:col-span-7 flex flex-col gap-12">
         <div>
           <p className="text-primary text-xs tracking-[0.3em] uppercase mb-4">
             {t("yachts.about.label")}
           </p>
-          <h2 className="font-serif font-bold text-[48px] text-headline mb-8">
+          <h2 className="font-serif font-bold text-3xl md:text-[48px] text-headline mb-8">
             {t("yachts.about.title")}
           </h2>
           <p className="text-text text-lg font-light leading-relaxed">
@@ -53,7 +53,7 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {brands.map((b) => (
             <div
               key={b.titleKey}
@@ -98,10 +98,7 @@ const AboutSection = () => {
       </div>
 
       {/* Desno */}
-      <div
-        className="col-span-5 pl-8 flex flex-col gap-12"
-        style={{ borderLeft: "1px solid rgba(212,175,55,0.3)" }}
-      >
+      <div className="md:col-span-5 pl-0 md:pl-8 md:border-l md:border-primary/30 flex flex-col gap-12">
         <h2 className="font-serif font-bold text-[28px] text-primary">
           {t("yachts.services.title")}
         </h2>

@@ -18,7 +18,7 @@ const YachtsConsultingSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-[1280px] mx-auto px-12 py-32 grid grid-cols-3 gap-16">
+    <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 md:pt-12 pb-16 md:pb-32 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
       {/* Savjetovanje */}
       <div className="flex flex-col gap-6">
         <img src={supportIcon} className="w-10 h-10" />

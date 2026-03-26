@@ -5,18 +5,18 @@ const InvestmentsSection = () => {
   const { t } = useTranslation();
 
   return (
-    <article className="flex flex-col md:flex-row gap-16 mb-32 max-w-7xl mx-auto">
-      <div className="flex flex-row w-full justify-between gap-16">
+    <article className="mb-16 md:mb-32 max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="flex flex-col md:flex-row w-full justify-between gap-8 md:gap-16">
         <div>
-          <h2 className="text-headline text-4xl mb-8">
+          <h2 className="text-headline text-3xl md:text-4xl mb-6 md:mb-8">
             {t("about.investments.title")}
           </h2>
-          <p className="text-lg text-text leading-relaxed text-on-surface/80">
+          <p className="text-base md:text-lg text-text leading-relaxed">
             {t("about.investments.desc")}
           </p>
         </div>
-        <EditorialDivider vertical />
-        <div className="mt-12 pt-8">
+        <div className="hidden md:block"><EditorialDivider vertical /></div>
+        <div className="md:mt-12 md:pt-8">
           <div className="border-l-2 border-primary pl-8 py-2 mb-6">
             <h4 className="text-primary text-sm uppercase mb-4">
               {t("about.investments.housing")}

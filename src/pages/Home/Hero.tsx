@@ -28,7 +28,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative w-full h-[80vh] pt-16">
+    <div className="relative w-full h-[50vh] md:h-[80vh] pt-16">
       {sections.map((s) => (
         <div
           key={s.index}

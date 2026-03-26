@@ -5,9 +5,9 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="max-w-[1280px] mx-auto px-12 pt-40 flex justify-between items-end gap-8">
+    <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-24 md:pt-40 flex justify-between items-end gap-8">
       <div className="flex flex-col gap-4 max-w-[957px]">
-        <h1 className="font-serif font-black text-[72px] leading-[72px] tracking-[-3.6px] text-headline">
+        <h1 className="font-serif font-black text-4xl md:text-[72px] md:leading-[72px] tracking-[-1px] md:tracking-[-3.6px] text-headline">
           {t("cars.hero.title")}
         </h1>
         <p className="font-sans text-[18px] leading-[29px] text-text max-w-[672px]">

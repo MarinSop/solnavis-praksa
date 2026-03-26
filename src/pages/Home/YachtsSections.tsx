@@ -29,10 +29,10 @@ const YachtsSection = () => {
   ];
 
   return (
-    <section className="my-8 max-w-[1280px] mx-auto relative">
-      <div className="flex gap-5">
-        <div className="flex flex-col w-[465px] shrink-0">
-          <h2 className="font-serif font-bold text-[60px] my-3 text-headline">
+    <section className="mb-8 max-w-[1280px] mx-auto px-6 lg:px-12 relative">
+      <div className="flex flex-col md:flex-row gap-5">
+        <div className="flex flex-col md:w-[465px] md:shrink-0">
+          <h2 className="font-serif font-bold text-4xl md:text-[60px] my-3 text-headline">
             {t("yachts.title")}
           </h2>
           <p className="font-sans text-[18px] leading-[29px] text-text">

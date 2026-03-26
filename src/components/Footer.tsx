@@ -20,8 +20,8 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#0E0E0E] border-t border-white/5 px-12 py-24">
-      <div className="max-w-[1280px] mx-auto flex gap-12">
+    <footer className="bg-[#0E0E0E] border-t border-white/5 px-4 md:px-12 py-24">
+      <div className="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center md:text-left justify-items-center md:justify-items-start">
         <div className="flex flex-col flex-1">
           <p className="font-bold text-[14px] tracking-[1.4px] uppercase text-white/60 leading-5">
             Sol Navis d.o.o.
@@ -29,7 +29,7 @@ const Footer = () => {
           {companyInfo.map((info) => (
             <p
               key={info}
-              className="text-[14px] tracking-[1.4px] uppercase text-white/40 leading-2"
+              className="text-[14px] tracking-[1.4px] uppercase text-white/40 leading-6"
             >
               {info}
             </p>

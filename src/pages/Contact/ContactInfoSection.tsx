@@ -7,7 +7,7 @@ const ContactInfoSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="px-12 max-w-7xl mx-auto mb-24 grid grid-cols-1 lg:grid-cols-12 gap-20">
+    <section className="px-6 lg:px-12 max-w-7xl mx-auto mb-12 md:mb-24 grid grid-cols-1 lg:grid-cols-12 gap-10 md:gap-20">
       <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-12">
         <ContactCard
           label={t("contact.info.hqLabel")}

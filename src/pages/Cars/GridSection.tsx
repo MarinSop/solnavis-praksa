@@ -38,8 +38,8 @@ const cars = [
 
 const GridSection = () => {
   return (
-    <section className="max-w-[1280px] mx-auto px-12 py-16">
-      <div className="grid grid-cols-2 gap-x-8 gap-y-16">
+    <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 pb-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-16">
         {cars.map((car) => (
           <CarCard
             key={car.id}
