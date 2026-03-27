@@ -156,13 +156,13 @@
       "showroomStreet": "TRENKOVA 1",
       "showroomCity": "Split Luxury Quarter",
       "phoneLabel": "Direct Line",
-      "phone": "+385 (0) 91 123 4567",
+      "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Mon - Fri: 09:00 - 17:00",
       "registryLabel": "Corporate Registry",
       "entity": "Entity",
       "vatId": "VAT ID",
-      "otpBank": "OTP Banka",
-      "pbzBank": "PBZ Banka"
+      "pbzBank": "PBZ Banka IBAN",
+      "swift": "SWIFT / BIC"
     },
     "hero": {
       "title": "Contact",

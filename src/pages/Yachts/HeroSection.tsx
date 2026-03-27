@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import yachtHeroImg from "@assets/images/home/hero-yacht.jpg";
+import yachtHeroImg from "@assets/images/yachts/hero-yacht.png";
 
 const HeroSection = () => {
   const { t } = useTranslation();

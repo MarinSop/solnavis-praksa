@@ -45,7 +45,7 @@ const AboutSection = () => {
           <p className="text-primary text-xs tracking-[0.3em] uppercase mb-4">
             {t("yachts.about.label")}
           </p>
-          <h2 className="font-serif font-bold text-3xl md:text-[48px] text-headline mb-8">
+          <h2 className="font-serif font-bold text-3xl md:text-[48px] leading-snug text-headline mb-8">
             {t("yachts.about.title")}
           </h2>
           <p className="text-text text-lg font-light leading-relaxed">

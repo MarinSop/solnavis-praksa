@@ -9,7 +9,7 @@ const CarsSection = () => {
   return (
     <section className="mt-12 md:mt-32 mb-24 md:mb-56 max-w-[1280px] mx-auto px-6 lg:px-12">
       <div className="flex flex-col">
-        <h2 className="font-serif my-3 font-bold text-4xl md:text-[72px] text-headline">
+        <h2 className="font-serif my-3 font-bold text-4xl md:text-[72px] text-primary">
           {t("cars.title")}
         </h2>
         <div className="flex flex-col md:flex-row md:justify-between md:items-end gap-4">

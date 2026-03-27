@@ -44,16 +44,14 @@ const ContactInfoSection = () => {
               <span className="text-headline">HR55388833160</span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
-              <span className="text-text">{t("contact.info.otpBank")}</span>
+              <span className="text-text">{t("contact.info.pbzBank")}</span>
               <span className="text-headline font-mono text-xs">
-                HR55 2407 0000 3211 4455 0
+                HR81 2340 0091 1104 1393 4
               </span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
-              <span className="text-text">{t("contact.info.pbzBank")}</span>
-              <span className="text-headline font-mono text-xs">
-                HR12 2340 0009 1122 3344 5
-              </span>
+              <span className="text-text">{t("contact.info.swift")}</span>
+              <span className="text-headline font-mono text-xs">PBZGHR2X</span>
             </p>
           </div>
         </div>

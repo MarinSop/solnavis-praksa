@@ -1,6 +1,6 @@
 import { useState } from "react";
 import carImg from "../../assets/images/home/hero-car.jpg";
-import yachtImg from "../../assets/images/home/hero-yacht.jpg";
+import yachtImg from "../../assets/images/home/hero-yacht.png";
 import investmentsImg from "../../assets/images/home/hero-investments.jpeg";
 
 const Hero = () => {
@@ -11,18 +11,21 @@ const Hero = () => {
       img: carImg,
       clip: "polygon(0 0, 35% 0, 25% 100%, 0 100%)",
       imgClass: "absolute left-0 top-0 w-[35%] h-full",
+      objectPosition: "60% center",
       index: 0,
     },
     {
       img: yachtImg,
       clip: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
       imgClass: "absolute left-[25%] top-0 w-[50%] h-full",
+      objectPosition: "center center",
       index: 1,
     },
     {
       img: investmentsImg,
       clip: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
       imgClass: "absolute left-[65%] top-0 w-[35%] h-full",
+      objectPosition: "center center",
       index: 2,
     },
   ];
@@ -41,7 +44,7 @@ const Hero = () => {
             src={s.img}
             className={`${s.imgClass} object-cover transition-all duration-700 ease-out`}
             style={{
-              objectPosition: "center center",
+              objectPosition: s.objectPosition,
               transform: hovered === s.index ? "scale(1.05)" : "scale(1)",
               filter: hovered === s.index ? "grayscale(0)" : "grayscale(1)",
             }}
