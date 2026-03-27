@@ -33,7 +33,7 @@
     }
   },
   "yachts": {
-    "title": "Exclusive Nautical",
+    "title": "Exclusive Nautical Services",
     "desc": "Specialized in yacht sales, service and charter, we provide a complete nautical service from purchase and maintenance to consulting and voyage planning. We build your trust through experience, expertise and premium support at sea and on land.",
     "hero": {
       "title": "The World of Nautical Sales",
@@ -56,7 +56,7 @@
     "cta": "Learn More",
     "about": {
       "label": "About Us & Our Expertise",
-      "title": "Specialists in Premium Nautical",
+      "title": "Premium Nautical Specialists",
       "desc": "Sol Navis is a leading expert in yacht sales and servicing on the Adriatic. Our team combines passion for the sea with top technical knowledge.",
       "cta": {
         "title": "Looking for a vessel?",
@@ -94,7 +94,7 @@
       "desc": "We guide you through vessel registration, import/export documentation and offer expert consulting for shipbuilding and charter management.",
       "broker": "International broker network",
       "mediation": "Purchase & sale mediation",
-      "legal": "Legal support & paperwork"
+      "legal": "Legal support & documentation"
     },
     "charter": {
       "title": "Charter & Education",
@@ -107,7 +107,7 @@
   },
   "investments": {
     "directions": {
-      "title": "Investment Directions",
+      "title": "Investment Areas",
       "residential": "Residential Projects",
       "residentialDesc": "We specialize in developing exclusive apartment units and modern homes that combine high aesthetics with a Mediterranean feel. Focus is on premium locations along the Adriatic coast.",
       "residentialTag": "Real Estate",
@@ -135,7 +135,7 @@
   },
   "contact": {
     "inquiry": {
-      "title": "Initiate Contact",
+      "title": "Send an Inquiry",
       "nameLabel": "Full Name",
       "namePlaceholder": "Alexander Sterling",
       "emailLabel": "Email Address",
@@ -144,7 +144,7 @@
       "cars": "Cars",
       "yachts": "Yachts",
       "investments": "Investments",
-      "messageLabel": "Your Brief",
+      "messageLabel": "Your Message",
       "messagePlaceholder": "Describe your requirements...",
       "submit": "Submit Inquiry"
     },
@@ -154,20 +154,20 @@
       "hqCity": "21000 Split, Croatia",
       "showroomLabel": "Salon & Showroom",
       "showroomStreet": "TRENKOVA 1",
-      "showroomCity": "Split Luxury Quarter",
+      "showroomCity": "Split",
       "phoneLabel": "Direct Line",
       "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Mon - Fri: 09:00 - 17:00",
       "registryLabel": "Corporate Registry",
       "entity": "Entity",
       "vatId": "VAT ID",
-      "pbzBank": "PBZ Banka IBAN",
+      "pbzBank": "PBZ Bank IBAN",
       "swift": "SWIFT / BIC"
     },
     "hero": {
       "title": "Contact",
       "desc": "Our advisors are at your disposal for all inquiries regarding luxury acquisitions and services.",
-      "emailLabel": "Central Inquiries",
+      "emailLabel": "General Inquiries",
       "email": "info@sol-navis.hr"
     }
   },
@@ -216,7 +216,7 @@
     "nautics": {
       "label": "Vessel Department",
       "title": "Nautical & Maritime",
-      "p1": "Sol Navis d.o.o. Split is a company specialized in vessel sales and service, representing vessel brands for Croatia, BiH, Montenegro and Serbia — Blumar yachts, Salona sailboats and Maestral inflatables.",
+      "p1": "Sol Navis d.o.o. Split is a company specialized in vessel sales and service, representing vessel brands for Croatia, BiH, Montenegro and Serbia — Blumar Yachts, Salona sailboats and Maestral inflatables.",
       "p2": "We are HRB-authorized for repairs of plastic and wooden vessels, working with all insurance companies for damage assessments. Our Sea Assistance service is available 24/7.",
       "partners": "Strategic Partners",
       "accreditations": "Accreditations",

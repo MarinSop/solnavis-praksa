@@ -23,11 +23,11 @@
         "desc": "Omogućujemo kartična plaćanja do 60 rata putem Premium Visa i Diners kartica uz maksimalnu fleksibilnost za naše klijente."
       },
       "leasing": {
-        "title": "Leasing Partneri",
+        "title": "Leasing partneri",
         "desc": "Suradnja sa svim leasing kućama u Hrvatskoj. Posebno ističemo partnerstva s OTP leasingom i Erste leasingom."
       },
       "transport": {
-        "title": "EU Transport",
+        "title": "EU transport",
         "desc": "Usluga transporta iz bilo kojeg dijela EU. Kompletna briga o dokumentaciji, carinjenju i homologaciji do same registracije."
       }
     }
@@ -36,7 +36,7 @@
     "title": "Ekskluzivna nautika",
     "desc": "Specijalizirani za prodaju, servis i charter plovila, pružamo kompletnu nautičku uslugu od kupnje i održavanja do savjetovanja i organizacije plovidbe. Vaše povjerenje gradimo kroz iskustvo, stručnost i vrhunsku podršku na moru i kopnu.",
     "hero": {
-      "title": "Svijet Nautike i Prodaje",
+      "title": "Svijet nautike i prodaje",
       "desc": "Vaš partner u svijetu luksuznih plovila. Od ovlaštenog zastupstva za Blumar Yachts do kompletne brige o vašem plovilu na Jadranu."
     },
     "features": {
@@ -55,8 +55,8 @@
     },
     "cta": "Saznaj više",
     "about": {
-      "label": "O nama i naša ekspertiza",
-      "title": "Specijalisti za Vrhunsku Nautiku",
+      "label": "O nama i našoj ekspertizi",
+      "title": "Specijalisti za vrhunsku nautiku",
       "desc": "Sol Navis je vodeći stručnjak u prodaji i servisiranju plovila na Jadranu. Naš tim spaja strast prema moru s vrhunskim tehničkim znanjem.",
       "cta": {
         "title": "Tražite plovilo?",
@@ -75,43 +75,43 @@
       }
     },
     "services": {
-      "title": "Tehničke Usluge",
+      "title": "Tehničke usluge",
       "intervention": {
-        "title": "Intervencije na Moru",
+        "title": "Intervencije na moru",
         "desc": "Brze intervencije i tegljenje plovila (YIC SEA ASSIST holder). Naš tim je spreman reagirati u najkraćem mogućem roku."
       },
       "repair": {
-        "title": "Popravci i Održavanje",
+        "title": "Popravci i održavanje",
         "desc": "Kompletni popravci trupa, interijera, mehanike i elektrike. Ovlašteni REX i BOAT CARE partneri."
       },
       "assessment": {
-        "title": "Procjena Štete i Vrijednosti",
+        "title": "Procjena štete i vrijednosti",
         "desc": "Stručna defektaža oštećenja i precizna procjena tržišne vrijednosti plovila za osiguranje ili kupoprodaju."
       }
     },
     "consulting": {
-      "title": "Savjetovanje i Podrška",
+      "title": "Savjetovanje i podrška",
       "desc": "Vodimo vas kroz proces registracije plovila, uvozno-izvozne dokumentacije te nudimo stručni konzalting za brodogradnju i charter management.",
       "broker": "Internacionalna mreža brokera",
       "mediation": "Kupoprodajno posredovanje",
-      "legal": "Pravna podrška i papiri"
+      "legal": "Pravna podrška i dokumentacija"
     },
     "charter": {
-      "title": "Charter i Edukacija",
+      "title": "Charter i edukacija",
       "desc": "Od luksuznih tjednih najmova do profesionalne obuke. Nudimo skipper treninge i tečajeve za voditelje brodice."
     },
     "partners": {
-      "title": "Ključni Partneri",
+      "title": "Ključni partneri",
       "desc": "Surađujemo s najpouzdanijim imenima u industriji kako bismo osigurali najvišu razinu usluge."
     }
   },
   "investments": {
     "directions": {
-      "title": "Investicijski Smjerovi",
-      "residential": "Stambeni Projekti",
+      "title": "Investicijski smjerovi",
+      "residential": "Stambeni projekti",
       "residentialDesc": "Specijalizirani smo za razvoj ekskluzivnih apartmanskih jedinica i suvremenih kuća koje spajaju visoku estetiku s mediteranskim ugođajem. Fokus je na premium lokacijama uz samu obalu Jadrana.",
       "residentialTag": "Nekretnine",
-      "strategic": "Strateški Projekti",
+      "strategic": "Strateški projekti",
       "strategicDesc": "Istražujemo i realiziramo prilike izvan klasične stanogradnje, uključujući razvoj građevinskog zemljišta, poslovnih prostora i inovativnih turističkih koncepata s visokim potencijalom rasta.",
       "strategicTag": "Razni drugi projekti"
     },
@@ -125,34 +125,34 @@
     "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
     "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta.",
     "service1": {
-      "title": "Projektiranje i Gradnja",
+      "title": "Projektiranje i gradnja",
       "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost."
     },
     "service2": {
-      "title": "Investicijsko Savjetovanje",
+      "title": "Investicijsko savjetovanje",
       "desc": "Pružamo stručnu analizu tržišta nekretnina i vodimo vas kroz proces profitabilnih ulaganja u projekte kuća i stanova."
     }
   },
   "contact": {
     "inquiry": {
-      "title": "Pošaljite Upit",
-      "nameLabel": "Ime i Prezime",
+      "title": "Pošaljite upit",
+      "nameLabel": "Ime i prezime",
       "namePlaceholder": "Ivan Horvat",
-      "emailLabel": "Email Adresa",
+      "emailLabel": "Email adresa",
       "emailPlaceholder": "klijent@privatno.com",
-      "interestLabel": "Vrsta Interesa",
+      "interestLabel": "Vrsta interesa",
       "cars": "Automobili",
       "yachts": "Jahte",
       "investments": "Investicije",
-      "messageLabel": "Vaša Poruka",
+      "messageLabel": "Vaša poruka",
       "messagePlaceholder": "Opišite vaše zahtjeve...",
-      "submit": "Pošalji Upit"
+      "submit": "Pošalji upit"
     },
     "info": {
       "hqLabel": "Ured",
       "hqStreet": "STANKA VRAZA 15",
       "hqCity": "21000 Split, Hrvatska",
-      "showroomLabel": "Salon i Izložbeni prostor",
+      "showroomLabel": "Salon i izložbeni prostor",
       "showroomStreet": "TRENKOVA 1",
       "showroomCity": "Split",
       "phoneLabel": "Direktna linija",
@@ -161,7 +161,7 @@
       "registryLabel": "Poslovni registar",
       "entity": "Entitet",
       "vatId": "VAT ID",
-      "pbzBank": "PBZ Banka IBAN",
+      "pbzBank": "PBZ banka IBAN",
       "swift": "SWIFT / BIC"
     },
     "hero": {
@@ -174,13 +174,13 @@
   "footer": {
     "nav": "Navigacija",
     "social": "Društvene mreže",
-    "locations": "Ured / Lokacija",
+    "locations": "Ured / lokacija",
     "office": "Ured",
     "showroom": "Salon"
   },
   "about": {
     "network": {
-      "label": "Mreža Povjerenja",
+      "label": "Mreža povjerenja",
       "partners": [
         "Yacht-pool",
         "Triglav",
@@ -195,35 +195,35 @@
       ]
     },
     "investments": {
-      "label": "Razvoj i Izgradnja",
-      "title": "Sol Navis Investicije",
+      "label": "Razvoj i izgradnja",
+      "title": "Sol Navis investicije",
       "desc": "Oblikujemo budućnost modernog stanovanja kroz strateška ulaganja u nekretnine i građevinske projekte.",
-      "housing": "Stambeni Razvoj",
+      "housing": "Stambeni razvoj",
       "housingDesc": "Specijalizirani smo za razvoj visokokvalitetnih stambenih jedinica i apartmana na najatraktivnijim lokacijama duž jadranske obale.",
       "consulting": "Konzalting",
       "consultingDesc": "Pružamo usluge investicijskog savjetovanja i vođenja projekata od inicijalne ideje do finalne realizacije i prodaje na tržištu."
     },
     "cars": {
-      "label": "Premium Vozila",
+      "label": "Premium vozila",
       "title": "Automobili",
-      "experience": "15+ Godina Iskustva",
+      "experience": "15+ godina iskustva",
       "desc": "Naš automobilski odjel fokusiran je na prodaju i otkup premium rabljenih vozila. Specijalizirani smo za uvoz po narudžbi, vodeći klijenta kroz cijeli proces — od selekcije u EU do registracije u Hrvatskoj.",
-      "logistics": "Logistička Podrška",
+      "logistics": "Logistička podrška",
       "logisticsDesc": "Kompletna usluga transporta i administracije, uključujući sve carinske i porezne procedure pri uvozu.",
-      "payment": "Fleksibilnost Plaćanja",
+      "payment": "Fleksibilnost plaćanja",
       "paymentDesc": "Suradnja sa svim vodećim leasing kućama (OTP, Erste) uz mogućnost kartičnog plaćanja do 60 rata."
     },
     "nautics": {
-      "label": "Odjel Plovila",
-      "title": "Nautika i Pomorstvo",
-      "p1": "Sol Navis d.o.o. Split je tvrtka specijalizirana za prodaju i servis plovila, zastupanje brandova plovila za RH, BIH, MNG i SRB za brand Blumar yachts, brand Salona sailboats i Maestral gumenjaci.",
+      "label": "Odjel plovila",
+      "title": "Nautika i pomorstvo",
+      "p1": "Sol Navis d.o.o. Split je tvrtka specijalizirana za prodaju i servis plovila, zastupanje brendova plovila za RH, BIH, MNG i SRB za brend Blumar Yachts, Salona jedrilice i Maestral gumenjake.",
       "p2": "Ovlašteni smo od strane HRB-a za popravke plastičnih i drvenih brodova, radimo za sve osiguravajuće kuće i procjene šteta na plovilima. Naša usluga Sea Assistance dostupna je 24/7.",
-      "partners": "Strateški Partneri",
+      "partners": "Strateški partneri",
       "accreditations": "Akreditacije",
-      "accreditationsDesc": "HRB Ovlašteni Servisni Centar za reparaciju i održavanje plovila."
+      "accreditationsDesc": "HRB ovlašteni servisni centar za reparaciju i održavanje plovila."
     },
     "hero": {
-      "title": "O Nama",
+      "title": "O nama",
       "desc": "Sveobuhvatna rješenja u nautici, prodaji automobila i investicijama, utemeljena na desetljećima povjerenja."
     }
   },
