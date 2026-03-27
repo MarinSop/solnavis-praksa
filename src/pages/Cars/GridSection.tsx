@@ -63,8 +63,6 @@ const GridSection = () => {
             img={car.img}
             href={njuskaloUrl}
             variant={"grid"}
-            year={car.year}
-            km={car.km}
           />
         ))}
       </div>
