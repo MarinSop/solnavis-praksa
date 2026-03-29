@@ -1,7 +1,7 @@
 import { useState } from "react";
-import carImg from "../../assets/images/home/hero-car.jpg";
-import yachtImg from "../../assets/images/home/hero-yacht.png";
-import investmentsImg from "../../assets/images/home/hero-investments.jpeg";
+import carImg from "../../assets/images/home/hero-car.webp";
+import yachtImg from "../../assets/images/home/hero-yacht.webp";
+import investmentsImg from "../../assets/images/home/hero-investments.webp";
 
 const Hero = () => {
   const [hovered, setHovered] = useState<number | null>(null);
@@ -42,6 +42,7 @@ const Hero = () => {
         >
           <img
             src={s.img}
+            fetchPriority="high"
             className={`${s.imgClass} object-cover transition-all duration-700 ease-out`}
             style={{
               objectPosition: s.objectPosition,

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import maseratiImg from "../../assets/images/home/maserati.jpeg";
-import porscheImg from "../../assets/images/home/porsche.jpg";
+import maseratiImg from "../../assets/images/home/maserati.webp";
+import porscheImg from "../../assets/images/home/porsche.webp";
 import CarCard from "@/components/CarCard";
 
 const CarsSection = () => {

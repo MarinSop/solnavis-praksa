@@ -23,6 +23,7 @@ const CarCard = ({
         <img
           className={`w-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100 ${variant === "grid" ? "aspect-[16/10]" : ""}`}
           src={img}
+          loading="lazy"
         />
       </div>
       {variant === "grid" ? (

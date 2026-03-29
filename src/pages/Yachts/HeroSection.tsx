@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import yachtHeroImg from "@assets/images/yachts/hero-yacht.png";
+import yachtHeroImg from "@assets/images/yachts/hero-yacht.webp";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -9,6 +9,7 @@ const HeroSection = () => {
       <div className="max-w-[1280px] mx-auto">
         <img
           src={yachtHeroImg}
+          fetchPriority="high"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-secondary to-transparent" />

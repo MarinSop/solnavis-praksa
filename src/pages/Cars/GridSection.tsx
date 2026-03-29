@@ -1,10 +1,10 @@
 import CarCard from "@/components/CarCard";
-import jaguarImg from "@assets/images/cars/jaguar.jpg";
-import bentlyImg from "@assets/images/cars/bentley.jpg";
-import bmwM3Img from "@assets/images/cars/bmw-m3.jpg";
-import porscheImg from "@assets/images/cars/porsche.jpg";
-import mercedesImg from "@assets/images/cars/mercedes.jpg";
-import audiImg from "@assets/images/cars/audi.jpg";
+import jaguarImg from "@assets/images/cars/jaguar.webp";
+import bentlyImg from "@assets/images/cars/bentley.webp";
+import bmwM3Img from "@assets/images/cars/bmw-m3.webp";
+import porscheImg from "@assets/images/cars/porsche.webp";
+import mercedesImg from "@assets/images/cars/mercedes.webp";
+import audiImg from "@assets/images/cars/audi.webp";
 import { njuskaloUrl } from "@/constants/urls";
 
 const cars = [

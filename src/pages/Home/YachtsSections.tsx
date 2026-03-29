@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import anchorIcon from "../../assets/icons/anchor.svg";
 import boatIcon from "../../assets/icons/boat.svg";
 import compassIcon from "../../assets/icons/compass.svg";
-import yachtImg from "../../assets/images/home/yacht.jpg";
+import yachtImg from "../../assets/images/home/yacht.webp";
 
 const YachtsSection = () => {
   const { t } = useTranslation();
@@ -60,6 +60,7 @@ const YachtsSection = () => {
         >
           <img
             src={yachtImg}
+            loading="lazy"
             className="w-full h-[670px] object-cover object-bottom"
           />
           <div
