@@ -1,14 +1,14 @@
 {
   "nav": {
     "cars": "Cars",
-    "yachts": "Yachts",
+    "yachts": "Nautics",
     "investments": "Investments",
     "home": "Home",
     "about": "About Us",
     "contact": "Contact"
   },
   "cars": {
-    "title": "Premium Vehicles",
+    "title": "Sol Navis Cars",
     "desc": "Sol Navis specializes in buying and selling used and exotic cars, with an emphasis on quality and verified EU origin. With over 15 years of import experience, we offer reliable vehicles and flexible payment options including leasing and installment plans. Our goal is to provide a safe and transparent purchase with professional support throughout the entire process.",
     "cta": "Learn More",
     "hero": {
@@ -33,7 +33,7 @@
     }
   },
   "yachts": {
-    "title": "Exclusive Nautical Services",
+    "title": "Sol Navis Nautics",
     "desc": "Specialized in yacht sales, service and charter, we provide a complete nautical service from purchase and maintenance to consulting and voyage planning. We build your trust through experience, expertise and premium support at sea and on land.",
     "hero": {
       "title": "The World of Nautical Sales",
@@ -159,7 +159,7 @@
       "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Mon - Fri: 09:00 - 17:00",
       "registryLabel": "Corporate Registry",
-      "entity": "Entity",
+      "entity": "Name",
       "vatId": "VAT ID",
       "pbzBank": "PBZ Bank IBAN",
       "swift": "SWIFT / BIC"

@@ -16,7 +16,7 @@ const HeroSection = () => {
 
         <div className="flex items-center gap-4 pt-4">
           <a
-            href="https://www.njuskalo.hr/trgovina/sol-navis-yachting"
+            href="https://www.njuskalo.hr/trgovina/sol-navis-yachting?categoryId=2"
             className="flex items-center gap-4 bg-primary text-secondary font-bold text-[14px] tracking-[1.4px] uppercase px-8 py-4"
           >
             <img src={carIcon} />

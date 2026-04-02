@@ -1,14 +1,14 @@
 {
   "nav": {
     "cars": "Automobili",
-    "yachts": "Jahte",
+    "yachts": "Nautika",
     "investments": "Investicije",
     "home": "Početna",
     "about": "O nama",
     "contact": "Kontakt"
   },
   "cars": {
-    "title": "Vrhunska vozila",
+    "title": "Sol Navis automobili",
     "desc": "Sol Navis bavi se prodajom i otkupom rabljenih i egzotičnih automobila, s naglaskom na kvalitetu i provjereno podrijetlo vozila iz Europske unije. S više od 15 godina iskustva u uvozu, klijentima nudimo pouzdana vozila te fleksibilne modele plaćanja, uključujući leasing i obročno plaćanje. Naš cilj je pružiti sigurnu i transparentnu kupnju uz profesionalnu podršku tijekom cijelog procesa.",
     "cta": "Saznaj više",
     "hero": {
@@ -33,7 +33,7 @@
     }
   },
   "yachts": {
-    "title": "Ekskluzivna nautika",
+    "title": "Sol Navis nautika",
     "desc": "Specijalizirani za prodaju, servis i charter plovila, pružamo kompletnu nautičku uslugu od kupnje i održavanja do savjetovanja i organizacije plovidbe. Vaše povjerenje gradimo kroz iskustvo, stručnost i vrhunsku podršku na moru i kopnu.",
     "hero": {
       "title": "Svijet nautike i prodaje",
@@ -121,7 +121,7 @@
       "tagline": "Razvijamo vizije koje stvaraju trajnu vrijednost.",
       "desc": "Sol Navis investira u razne projekte gradnje kuća i apartmana na najtraženijim lokacijama Jadrana. Naš cilj je osigurati siguran i profitabilan povrat za naše partnere kroz transparentno vođenje projekata."
     },
-    "title": "Investicije",
+    "title": "Sol Navis Investicije",
     "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
     "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta.",
     "service1": {
@@ -142,7 +142,7 @@
       "emailPlaceholder": "klijent@privatno.com",
       "interestLabel": "Vrsta interesa",
       "cars": "Automobili",
-      "yachts": "Jahte",
+      "yachts": "Nautika",
       "investments": "Investicije",
       "messageLabel": "Vaša poruka",
       "messagePlaceholder": "Opišite vaše zahtjeve...",
@@ -159,7 +159,7 @@
       "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Pon - Pet: 09:00 - 17:00",
       "registryLabel": "Poslovni registar",
-      "entity": "Entitet",
+      "entity": "Naziv",
       "vatId": "VAT ID",
       "pbzBank": "PBZ banka IBAN",
       "swift": "SWIFT / BIC"

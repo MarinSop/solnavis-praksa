@@ -46,7 +46,7 @@ const ContactInfoSection = () => {
             <p className="flex justify-between border-b border-primary/10 pb-2">
               <span className="text-text">{t("contact.info.pbzBank")}</span>
               <span className="text-headline font-mono text-xs">
-                HR81 2340 0091 1104 1393 4
+                HR8123400091110413934
               </span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">

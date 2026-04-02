@@ -5,7 +5,7 @@ import bmwM3Img from "@assets/images/cars/bmw-m3.webp";
 import porscheImg from "@assets/images/cars/porsche.webp";
 import mercedesImg from "@assets/images/cars/mercedes.webp";
 import audiImg from "@assets/images/cars/audi.webp";
-import { njuskaloUrl } from "@/constants/urls";
+import { njuskaloUrlCars } from "@/constants/urls";
 
 const cars = [
   {
@@ -61,7 +61,7 @@ const GridSection = () => {
             key={car.id}
             name={car.name}
             img={car.img}
-            href={njuskaloUrl}
+            href={njuskaloUrlCars}
             variant={"grid"}
           />
         ))}
