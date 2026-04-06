@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import maseratiImg from "../../assets/images/home/maserati.webp";
-import { njuskaloUrlCars } from "@/constants/urls";
 
 const CarsSection = () => {
   const { t } = useTranslation();
