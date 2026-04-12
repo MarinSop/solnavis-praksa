@@ -36,8 +36,8 @@
     "title": "Sol Navis Nautics",
     "desc": "Specialized in yacht sales, service and charter, we provide a complete nautical service from purchase and maintenance to consulting and voyage planning. We build your trust through experience, expertise and premium support at sea and on land.",
     "hero": {
-      "title": "The World of Nautical Sales",
-      "desc": "Your partner in the world of luxury vessels. From authorized Blumar Yachts representation to complete vessel care on the Adriatic."
+      "title": "The World of Nautics and Sales",
+      "desc": "Representatives of renowned sailboats and yachts, both new and used."
     },
     "features": {
       "sales": {
@@ -57,21 +57,11 @@
     "about": {
       "label": "About Us & Our Expertise",
       "title": "Premium Nautical Specialists",
-      "desc": "Sol Navis is a leading expert in yacht sales and servicing on the Adriatic. Our team combines passion for the sea with top technical knowledge.",
+      "desc": "Sol Navis is a leading expert in yacht sales and servicing on the Adriatic, combining a passion for the sea with top technical knowledge. Through the projects Yachtsincroatia.com and Yachtsinmontenegro.com, launched in 2011, our team of experts in nautics, programming, digital design, marketing and economics provides centralized information on nautics and tourism in Croatia and Montenegro, including companies, agencies, marinas, beaches, locations and charter offerings.",
       "cta": {
         "title": "Looking for a vessel?",
         "desc": "Browse our current selection of new and used vessels on our official store.",
         "btn": "Sol Navis Njuškalo"
-      }
-    },
-    "brands": {
-      "blumar": {
-        "title": "Blumar Yachts",
-        "desc": "Authorized representative for Croatia, Bosnia & Herzegovina, Montenegro and Serbia. Premium Italian design and performance."
-      },
-      "salona": {
-        "title": "Salona & Maestral",
-        "desc": "Representation for renowned Salona sailboats and legendary Maestral inflatable boats."
       }
     },
     "services": {
@@ -118,10 +108,10 @@
     "hero": {
       "title": "Sol Navis",
       "titleAccent": "Investments",
-      "tagline": "We develop visions that create lasting value.",
-      "desc": "Sol Navis invests in various house and apartment construction projects in the most sought-after locations on the Adriatic. Our goal is to ensure a safe and profitable return for our partners through transparent project management."
+      "tagline": "Investments across various sectors and partnerships on projects in tourism, construction and hospitality.",
+      "desc": "Investments across various sectors and partnerships on projects in tourism, construction and hospitality."
     },
-    "title": "Investments",
+    "title": "Sol Navis Investments",
     "subtitle": "A reliable partner for real estate investments on the Adriatic coast and beyond.",
     "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection with expert market analysis.",
     "service1": {
@@ -224,7 +214,7 @@
     },
     "hero": {
       "title": "About Us",
-      "desc": "Comprehensive solutions in nautical, car sales and investments, founded on decades of trust."
+      "desc": "The company was founded by Ante Ćurković in 2009 and since then we have recorded continuous and stable growth, with increasing recognition on the market as a reliable, professional and secure business partner."
     }
   },
   "error": {

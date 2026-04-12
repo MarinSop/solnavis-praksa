@@ -8,9 +8,10 @@ const HeroSection = () => {
       <h1 className="font-headline text-4xl md:text-6xl lg:text-8xl text-primary tracking-tighter leading-tight mb-6 md:mb-12">
         {t("about.hero.title")}
       </h1>
-      <p className="font-headline text-headline italic text-lg md:text-2xl lg:text-3xl font-light leading-relaxed">
-        "{t("about.hero.desc")}"
-      </p>
+
+      <div className="space-y-6 text-base md:text-lg text-text leading-relaxed">
+        <p>{t("about.hero.desc")}</p>
+      </div>
     </header>
   );
 };

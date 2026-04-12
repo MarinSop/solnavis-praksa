@@ -12,7 +12,7 @@ const Navbar = () => {
   const items = [
     { label: t("nav.home"), to: "/" },
     { label: t("nav.cars"), to: "/automobili" },
-    { label: t("nav.yachts"), to: "/jahte" },
+    { label: t("nav.yachts"), to: "/nautika" },
     { label: t("nav.investments"), to: "/investicije" },
     { label: t("nav.about"), to: "/o-nama" },
     { label: t("nav.contact"), to: "/kontakt" },

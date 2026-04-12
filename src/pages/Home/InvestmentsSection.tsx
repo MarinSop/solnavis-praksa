@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router";
 
 const InvestmentsSection = () => {
   const { t } = useTranslation();
@@ -6,9 +7,11 @@ const InvestmentsSection = () => {
   return (
     <section className="mt-0 mb-16 max-w-[1280px] mx-auto px-6 lg:px-12">
       <div className="flex flex-col items-center gap-1 text-center">
-        <h2 className="font-serif font-bold text-5xl md:text-[96px] leading-none mb-3 text-headline">
-          {t("investments.title")}
-        </h2>
+        <Link to="/investicije">
+          <h2 className="font-serif font-bold text-5xl md:text-[96px] leading-none mb-3 text-headline">
+            {t("investments.title")}
+          </h2>
+        </Link>
 
         <p className="font-sans text-lg md:text-[24px] text-headline">
           {t("investments.subtitle")}

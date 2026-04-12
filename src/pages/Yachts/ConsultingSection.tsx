@@ -3,7 +3,7 @@ import supportIcon from "@assets/icons/support.svg";
 import educationIcon from "@assets/icons/education.svg";
 import partnerIcon from "@assets/icons/leasing.svg";
 
-const partners = ["Yacht-Pool", "Triglav", "Sail Croatia", "Croatia Insurance"];
+const partners = ["Dobit", "OTP Leasing", "Impuls", "Erste Leasing"];
 
 const consulting = [
   "yachts.consulting.broker",

@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       { path: "/automobili", element: <Cars /> },
-      { path: "jahte", element: <Yachts /> },
+      { path: "nautika", element: <Yachts /> },
       { path: "investicije", element: <Investments /> },
       { path: "o-nama", element: <About /> },
       { path: "kontakt", element: <Contact /> },

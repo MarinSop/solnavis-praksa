@@ -11,43 +11,31 @@ const cars = [
   {
     id: 1,
     name: "Jaguar F-Type 300ks Turbo RWD Sport R Dynamic Firenze RED",
-    year: "2019",
-    km: "69.000 KM",
     img: jaguarImg,
   },
   {
     id: 2,
     name: "BENTLEY CONTINETAL GT Mulliner",
-    year: "2022",
-    km: "1,850 KM",
     img: bentlyImg,
   },
   {
     id: 3,
     name: "BMW M3 Performance Carbon LCI",
-    year: "2022",
-    km: "24.000 KM",
     img: bmwM3Img,
   },
   {
     id: 4,
     name: "Porsche Carrera 992",
-    year: "2022",
-    km: "5,100 KM",
     img: porscheImg,
   },
   {
     id: 5,
     name: "MERCEDES E350d AMG ",
-    year: "2022",
-    km: "5,100 KM",
     img: mercedesImg,
   },
   {
     id: 6,
     name: "AUDI A4 3.0tdi quattro S performance 280ks",
-    year: "2022",
-    km: "5,100 KM",
     img: audiImg,
   },
 ];

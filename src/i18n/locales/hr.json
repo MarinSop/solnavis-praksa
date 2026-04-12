@@ -37,7 +37,7 @@
     "desc": "Specijalizirani za prodaju, servis i charter plovila, pružamo kompletnu nautičku uslugu od kupnje i održavanja do savjetovanja i organizacije plovidbe. Vaše povjerenje gradimo kroz iskustvo, stručnost i vrhunsku podršku na moru i kopnu.",
     "hero": {
       "title": "Svijet nautike i prodaje",
-      "desc": "Vaš partner u svijetu luksuznih plovila. Od ovlaštenog zastupstva za Blumar Yachts do kompletne brige o vašem plovilu na Jadranu."
+      "desc": "Zastupnici renomiranih jedrilica i jahti, novih i rabljenih."
     },
     "features": {
       "sales": {
@@ -57,21 +57,11 @@
     "about": {
       "label": "O nama i našoj ekspertizi",
       "title": "Specijalisti za vrhunsku nautiku",
-      "desc": "Sol Navis je vodeći stručnjak u prodaji i servisiranju plovila na Jadranu. Naš tim spaja strast prema moru s vrhunskim tehničkim znanjem.",
+      "desc": "Sol Navis je vodeći stručnjak za prodaju i servis plovila na Jadranu, koji spaja strast prema moru s vrhunskim tehničkim znanjem. Kroz projekte Yachtsincroatia.com i Yachtsinmontenegro.com, pokrenute 2011. godine, naš tim stručnjaka iz nautike, programiranja, digitalnog dizajna, marketinga i ekonomije pruža centralizirane informacije o nautici i turizmu u Hrvatskoj i Crnoj Gori uključujući tvrtke, agencije, marine, plaže, lokacije i charter ponudu.",
       "cta": {
         "title": "Tražite plovilo?",
         "desc": "Pregledajte našu aktualnu ponudu novih i rabljenih plovila na službenoj trgovini.",
         "btn": "Sol Navis Njuškalo"
-      }
-    },
-    "brands": {
-      "blumar": {
-        "title": "Blumar Yachts",
-        "desc": "Ovlašteni zastupnik za tržišta Hrvatske, BiH, Crne Gore i Srbije. Vrhunski talijanski dizajn i performanse."
-      },
-      "salona": {
-        "title": "Salona & Maestral",
-        "desc": "Zastupstvo za renomirane Salona jedrilice i legendarne Maestral gumene čamce."
       }
     },
     "services": {
@@ -118,8 +108,8 @@
     "hero": {
       "title": "Sol Navis",
       "titleAccent": "Investicije",
-      "tagline": "Razvijamo vizije koje stvaraju trajnu vrijednost.",
-      "desc": "Sol Navis investira u razne projekte gradnje kuća i apartmana na najtraženijim lokacijama Jadrana. Naš cilj je osigurati siguran i profitabilan povrat za naše partnere kroz transparentno vođenje projekata."
+      "tagline": "Ulaganja u različite sektore te partnerstva na projektima u turizmu, građevini i ugostiteljstvu.",
+      "desc": "Ulaganja u različite sektore te partnerstva na projektima u turizmu, građevini i ugostiteljstvu."
     },
     "title": "Sol Navis Investicije",
     "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
@@ -224,7 +214,7 @@
     },
     "hero": {
       "title": "O nama",
-      "desc": "Sveobuhvatna rješenja u nautici, prodaji automobila i investicijama, utemeljena na desetljećima povjerenja."
+      "desc": "Tvrtku je osnovao Ante Ćurković 2009. godine te od tada bilježimo kontinuirani i stabilan rast, uz sve veću prepoznatljivost na tržištu kao pouzdan, profesionalan i siguran partner u poslovanju."
     }
   },
   "error": {

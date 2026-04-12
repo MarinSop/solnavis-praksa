@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import carIcon from "@assets/icons/car.svg";
+import { njuskaloUrlNautics } from "@/constants/urls";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const HeroSection = () => {
 
         <div className="flex items-center gap-4 pt-4">
           <a
-            href="https://www.njuskalo.hr/trgovina/sol-navis-yachting?categoryId=2"
+            href={njuskaloUrlNautics}
             className="flex items-center gap-4 bg-primary text-secondary font-bold text-[14px] tracking-[1.4px] uppercase px-8 py-4"
           >
             <img src={carIcon} />

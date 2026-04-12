@@ -1,12 +1,31 @@
 import { useTranslation } from "react-i18next";
-import { njuskaloUrl } from "@/constants/urls";
+import {
+  njuskaloUrlNautics,
+  yachtsInCroatiaUrl,
+  yachtsInMontenegorUrl,
+} from "@/constants/urls";
 import fixerIcon from "@assets/icons/fix.svg";
 import checklistIcon from "@assets/icons/checklist.svg";
 import warningIcon from "@assets/icons/!.svg";
 import cartIcon from "@assets/icons/cart.svg";
+import yachtsInCroatia from "@assets/images/yachts/yachts-in-croatia.webp";
+import yachtsInMontenegro from "@assets/images/yachts/yachts-in-montenegro.webp";
 
 const AboutSection = () => {
   const { t } = useTranslation();
+
+  const partners = [
+    {
+      logo: yachtsInCroatia,
+      url: yachtsInCroatiaUrl,
+      desc: "Sve o nautici i turizmu u Hrvatskoj",
+    },
+    {
+      logo: yachtsInMontenegro,
+      url: yachtsInMontenegorUrl,
+      desc: "Sve o nautici i turizmu u Crnoj Gori",
+    },
+  ];
 
   const services = [
     {
@@ -26,17 +45,6 @@ const AboutSection = () => {
     },
   ];
 
-  const brands = [
-    {
-      titleKey: "yachts.brands.blumar.title",
-      descKey: "yachts.brands.blumar.desc",
-    },
-    {
-      titleKey: "yachts.brands.salona.title",
-      descKey: "yachts.brands.salona.desc",
-    },
-  ];
-
   return (
     <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 md:pt-12 pb-16 md:pb-32 grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 items-start">
       {/* Lijevo */}
@@ -53,26 +61,18 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {brands.map((b) => (
-            <div
-              key={b.titleKey}
-              className="p-8 transition-colors cursor-default"
-              style={{ border: "1px solid rgba(212,175,55,0.2)" }}
-              onMouseEnter={(e) =>
-                (e.currentTarget.style.border =
-                  "1px solid rgba(212,175,55,0.8)")
-              }
-              onMouseLeave={(e) =>
-                (e.currentTarget.style.border =
-                  "1px solid rgba(212,175,55,0.2)")
-              }
-            >
-              <h4 className="font-serif font-bold text-primary mb-3">
-                {t(b.titleKey)}
-              </h4>
-              <p className="text-text text-sm font-light leading-relaxed">
-                {t(b.descKey)}
+        <div className="flex flex-col gap-8">
+          {partners.map((p) => (
+            <div key={p.url} className="flex flex-col items-center">
+              <a href={p.url} target="_blank" rel="noreferrer">
+                <img
+                  src={p.logo}
+                  alt=""
+                  className="max-w-xs bg-white block px-8 py-4 border-6 border-solid border-primary transition-transform duration-300 hover:scale-105"
+                />
+              </a>
+              <p className="text-text text-sm font-light mt-3 text-center">
+                {p.desc}
               </p>
             </div>
           ))}
@@ -86,7 +86,7 @@ const AboutSection = () => {
             {t("yachts.about.cta.desc")}
           </p>
           <a
-            href={njuskaloUrl}
+            href={njuskaloUrlNautics}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-4 bg-primary font-bold text-[14px] tracking-[1.6px] uppercase px-10 py-5"
