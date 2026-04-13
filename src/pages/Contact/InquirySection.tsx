@@ -1,13 +1,12 @@
 import { useTranslation } from "react-i18next";
 
+const interests = [
+  { key: "cars", label: "contact.inquiry.cars" },
+  { key: "yachts", label: "contact.inquiry.yachts" },
+  { key: "investments", label: "contact.inquiry.investments" },
+];
 const InquirySection = () => {
   const { t } = useTranslation();
-
-  const interests = [
-    { key: "cars", label: t("contact.inquiry.cars") },
-    { key: "yachts", label: t("contact.inquiry.yachts") },
-    { key: "investments", label: t("contact.inquiry.investments") },
-  ];
 
   return (
     <section className="px-6 lg:px-12 max-w-7xl mx-auto mb-16 md:mb-32">
@@ -48,7 +47,7 @@ const InquirySection = () => {
                 <label key={key} className="cursor-pointer">
                   <input type="radio" name="interest" className="hidden peer" />
                   <span className="px-6 py-2 border border-primary/20 border-solid text-text text-xs uppercase peer-checked:text-primary peer-checked:bg-primary/2 transition-colors">
-                    {label}
+                    {t(label)}
                   </span>
                 </label>
               ))}

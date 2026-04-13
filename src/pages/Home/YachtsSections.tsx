@@ -6,27 +6,26 @@ import boatIcon from "../../assets/icons/boat.svg";
 import compassIcon from "../../assets/icons/compass.svg";
 import yachtImg from "../../assets/images/home/yacht.webp";
 
+const features = [
+  {
+    title: "yachts.features.sales.title",
+    desc: "yachts.features.sales.desc",
+    icon: boatIcon,
+  },
+  {
+    title: "yachts.features.service.title",
+    desc: "yachts.features.service.desc",
+    icon: anchorIcon,
+  },
+  {
+    title: "yachts.features.charter.title",
+    desc: "yachts.features.charter.desc",
+    icon: compassIcon,
+  },
+];
 const YachtsSection = () => {
   const { t } = useTranslation();
   const [hovered, setHovered] = useState(false);
-
-  const features = [
-    {
-      title: t("yachts.features.sales.title"),
-      desc: t("yachts.features.sales.desc"),
-      icon: boatIcon,
-    },
-    {
-      title: t("yachts.features.service.title"),
-      desc: t("yachts.features.service.desc"),
-      icon: anchorIcon,
-    },
-    {
-      title: t("yachts.features.charter.title"),
-      desc: t("yachts.features.charter.desc"),
-      icon: compassIcon,
-    },
-  ];
 
   return (
     <section className="mb-8 max-w-[1280px] mx-auto px-6 lg:px-12 relative">
@@ -42,13 +41,13 @@ const YachtsSection = () => {
           </p>
           <div className="flex flex-col">
             {features.map((f) => (
-              <div key={f.title} className="flex gap-4 items-start">
+              <div key={t(f.title)} className="flex gap-4 items-start">
                 <img src={f.icon} className="w-5 h-5 mt-4" />
                 <div>
                   <p className="font-bold text-[16px] text-headline">
-                    {f.title}
+                    {t(f.title)}
                   </p>
-                  <p className="text-[14px] text-text">{f.desc}</p>
+                  <p className="text-[14px] text-text">{t(f.desc)}</p>
                 </div>
               </div>
             ))}

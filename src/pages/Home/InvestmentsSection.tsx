@@ -20,25 +20,6 @@ const InvestmentsSection = () => {
         <p className="font-sans text-base md:text-[20px] leading-[32px] text-text">
           {t("investments.desc")}
         </p>
-
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12 w-full mt-6">
-          <div className="flex-1 border-t border-primary/30 pt-8 flex flex-col gap-4">
-            <h4 className="font-serif font-bold text-[24px] mb-3 text-headline">
-              {t("investments.service1.title")}
-            </h4>
-            <p className="font-sans text-[16px] leading-[24px] text-text">
-              {t("investments.service1.desc")}
-            </p>
-          </div>
-          <div className="flex-1 border-t border-primary/30 pt-8 flex flex-col gap-4">
-            <h4 className="font-serif font-bold text-[24px] mb-3 text-headline">
-              {t("investments.service2.title")}
-            </h4>
-            <p className="font-sans text-[16px] leading-[24px] text-text">
-              {t("investments.service2.desc")}
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

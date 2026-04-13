@@ -26,6 +26,7 @@ const ContactInfoSection = () => {
           title={t("contact.info.phone")}
           subtitle={t("contact.info.phoneHours")}
           icon={telephoneIcon}
+          href={`tel:${t("contact.info.phone").replace(/\s|\(|\)/g, "")}`}
         />
       </div>
 
@@ -44,7 +45,7 @@ const ContactInfoSection = () => {
               <span className="text-headline">HR55388833160</span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
-              <span className="text-text">{t("contact.info.pbzBank")}</span>
+              <span className="text-text">{t("contact.info.iban")}</span>
               <span className="text-headline font-mono text-xs">
                 HR8123400091110413934
               </span>

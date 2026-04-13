@@ -3,32 +3,31 @@ import carImg from "../../assets/images/home/hero-car.webp";
 import yachtImg from "../../assets/images/home/hero-yacht.webp";
 import investmentsImg from "../../assets/images/home/hero-investments.webp";
 
+const sections = [
+  {
+    img: carImg,
+    clip: "polygon(0 0, 35% 0, 25% 100%, 0 100%)",
+    imgClass: "absolute left-0 top-0 w-[35%] h-full",
+    objectPosition: "60% center",
+    index: 0,
+  },
+  {
+    img: yachtImg,
+    clip: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
+    imgClass: "absolute left-[25%] top-0 w-[50%] h-full",
+    objectPosition: "center center",
+    index: 1,
+  },
+  {
+    img: investmentsImg,
+    clip: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
+    imgClass: "absolute left-[65%] top-0 w-[35%] h-full",
+    objectPosition: "center center",
+    index: 2,
+  },
+];
 const Hero = () => {
   const [hovered, setHovered] = useState<number | null>(null);
-
-  const sections = [
-    {
-      img: carImg,
-      clip: "polygon(0 0, 35% 0, 25% 100%, 0 100%)",
-      imgClass: "absolute left-0 top-0 w-[35%] h-full",
-      objectPosition: "60% center",
-      index: 0,
-    },
-    {
-      img: yachtImg,
-      clip: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
-      imgClass: "absolute left-[25%] top-0 w-[50%] h-full",
-      objectPosition: "center center",
-      index: 1,
-    },
-    {
-      img: investmentsImg,
-      clip: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
-      imgClass: "absolute left-[65%] top-0 w-[35%] h-full",
-      objectPosition: "center center",
-      index: 2,
-    },
-  ];
 
   return (
     <div className="relative w-full h-[50vh] md:h-[80vh] pt-16">

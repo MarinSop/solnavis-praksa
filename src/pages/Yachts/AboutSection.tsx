@@ -11,39 +11,38 @@ import cartIcon from "@assets/icons/cart.svg";
 import yachtsInCroatia from "@assets/images/yachts/yachts-in-croatia.webp";
 import yachtsInMontenegro from "@assets/images/yachts/yachts-in-montenegro.webp";
 
+const partners = [
+  {
+    logo: yachtsInCroatia,
+    url: yachtsInCroatiaUrl,
+    desc: "Sve o nautici i turizmu u Hrvatskoj",
+  },
+  {
+    logo: yachtsInMontenegro,
+    url: yachtsInMontenegorUrl,
+    desc: "Sve o nautici i turizmu u Crnoj Gori",
+  },
+];
+
+const services = [
+  {
+    icon: warningIcon,
+    titleKey: "yachts.services.intervention.title",
+    descKey: "yachts.services.intervention.desc",
+  },
+  {
+    icon: fixerIcon,
+    titleKey: "yachts.services.repair.title",
+    descKey: "yachts.services.repair.desc",
+  },
+  {
+    icon: checklistIcon,
+    titleKey: "yachts.services.assessment.title",
+    descKey: "yachts.services.assessment.desc",
+  },
+];
 const AboutSection = () => {
   const { t } = useTranslation();
-
-  const partners = [
-    {
-      logo: yachtsInCroatia,
-      url: yachtsInCroatiaUrl,
-      desc: "Sve o nautici i turizmu u Hrvatskoj",
-    },
-    {
-      logo: yachtsInMontenegro,
-      url: yachtsInMontenegorUrl,
-      desc: "Sve o nautici i turizmu u Crnoj Gori",
-    },
-  ];
-
-  const services = [
-    {
-      icon: warningIcon,
-      titleKey: "yachts.services.intervention.title",
-      descKey: "yachts.services.intervention.desc",
-    },
-    {
-      icon: fixerIcon,
-      titleKey: "yachts.services.repair.title",
-      descKey: "yachts.services.repair.desc",
-    },
-    {
-      icon: checklistIcon,
-      titleKey: "yachts.services.assessment.title",
-      descKey: "yachts.services.assessment.desc",
-    },
-  ];
 
   return (
     <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 md:pt-12 pb-16 md:pb-32 grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-24 items-start">
