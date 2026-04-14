@@ -42,7 +42,7 @@ const YachtsSection = () => {
           <div className="flex flex-col">
             {features.map((f) => (
               <div key={t(f.title)} className="flex gap-4 items-start">
-                <img src={f.icon} className="w-5 h-5 mt-4" />
+                <img src={f.icon} alt="" className="w-5 h-5 mt-4" />
                 <div>
                   <p className="font-bold text-[16px] text-headline">
                     {t(f.title)}
@@ -61,6 +61,7 @@ const YachtsSection = () => {
         >
           <img
             src={yachtImg}
+            alt="Jahta"
             loading="lazy"
             className="w-full h-[670px] object-cover object-bottom"
           />

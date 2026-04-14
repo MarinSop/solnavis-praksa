@@ -20,6 +20,13 @@ const InvestmentsSection = () => {
         <p className="font-sans text-base md:text-[20px] leading-[32px] text-text">
           {t("investments.desc")}
         </p>
+
+        <Link
+          to="/investicije"
+          className="font-bold tracking-[1.6px] visited:text-primary uppercase text-primary border-b border-primary pb-1 mt-6"
+        >
+          {t("investments.cta")}
+        </Link>
       </div>
     </section>
   );

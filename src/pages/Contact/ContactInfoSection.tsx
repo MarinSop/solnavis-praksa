@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import pinIcon from "@assets/icons/pin.svg";
 import telephoneIcon from "@assets/icons/telephone.svg";
 import ContactCard from "../../components/ContactCard";
+import { CONTACT } from "@/constants/contact";
 
 const ContactInfoSection = () => {
   const { t } = useTranslation();
@@ -11,22 +12,22 @@ const ContactInfoSection = () => {
       <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2 gap-12">
         <ContactCard
           label={t("contact.info.hqLabel")}
-          title={t("contact.info.hqStreet")}
-          subtitle={t("contact.info.hqCity")}
+          title={CONTACT.hqStreet}
+          subtitle={`${CONTACT.hqPostalCode} ${CONTACT.hqCity}, ${t("contact.info.country")}`}
           icon={pinIcon}
         />
         <ContactCard
           label={t("contact.info.showroomLabel")}
-          title={t("contact.info.showroomStreet")}
-          subtitle={t("contact.info.showroomCity")}
+          title={CONTACT.showroomStreet}
+          subtitle={CONTACT.showroomCity}
           icon={pinIcon}
         />
         <ContactCard
           label={t("contact.info.phoneLabel")}
-          title={t("contact.info.phone")}
+          title={CONTACT.phone}
           subtitle={t("contact.info.phoneHours")}
           icon={telephoneIcon}
-          href={`tel:${t("contact.info.phone").replace(/\s|\(|\)/g, "")}`}
+          href={`tel:${CONTACT.phoneTel}`}
         />
       </div>
 
@@ -38,21 +39,23 @@ const ContactInfoSection = () => {
           <div className="space-y-4 text-sm">
             <p className="flex justify-between border-b border-primary/10 pb-2">
               <span className="text-text">{t("contact.info.entity")}</span>
-              <span className="text-headline">SOL NAVIS D.O.O.</span>
+              <span className="text-headline">{CONTACT.entity}</span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
               <span className="text-text">{t("contact.info.vatId")}</span>
-              <span className="text-headline">HR55388833160</span>
+              <span className="text-headline">{CONTACT.vatId}</span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
               <span className="text-text">{t("contact.info.iban")}</span>
               <span className="text-headline font-mono text-xs">
-                HR8123400091110413934
+                {CONTACT.iban}
               </span>
             </p>
             <p className="flex justify-between border-b border-primary/10 pb-2">
               <span className="text-text">{t("contact.info.swift")}</span>
-              <span className="text-headline font-mono text-xs">PBZGHR2X</span>
+              <span className="text-headline font-mono text-xs">
+                {CONTACT.swift}
+              </span>
             </p>
           </div>
         </div>

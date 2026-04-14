@@ -67,11 +67,11 @@
       "title": "Technical Services",
       "intervention": {
         "title": "Sea Interventions",
-        "desc": "Fast interventions and vessel towing (YIC SEA ASSIST holder). Our team is ready to respond in the shortest possible time."
+        "desc": "Fast interventions and vessel towing. Our team is ready to respond in the shortest possible time."
       },
       "repair": {
         "title": "Repairs & Maintenance",
-        "desc": "Complete hull, interior, mechanical and electrical repairs. Authorized REX and BOAT CARE partners."
+        "desc": "Complete hull, interior, mechanical and electrical repairs."
       },
       "assessment": {
         "title": "Damage & Value Assessment",
@@ -102,7 +102,8 @@
     },
     "title": "Sol Navis Investments",
     "subtitle": "A reliable partner for real estate investments on the Adriatic coast and beyond.",
-    "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection with expert market analysis."
+    "desc": "From concept to key handover, we ensure the highest standards of execution and aesthetic perfection with expert market analysis.",
+    "cta": "Learn More"
   },
   "contact": {
     "inquiry": {
@@ -121,14 +122,10 @@
     },
     "info": {
       "hqLabel": "Office",
-      "hqStreet": "STANKA VRAZA 15",
-      "hqCity": "21000 Split, Croatia",
       "showroomLabel": "Salon & Showroom",
-      "showroomStreet": "TRENKOVA 1",
-      "showroomCity": "Split",
       "phoneLabel": "Direct Line",
-      "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Mon - Fri: 09:00 - 17:00",
+      "country": "Croatia",
       "registryLabel": "Corporate Registry",
       "entity": "Name",
       "vatId": "VAT ID",
@@ -137,9 +134,8 @@
     },
     "hero": {
       "title": "Contact",
-      "desc": "Our advisors are at your disposal for all inquiries regarding luxury acquisitions and services.",
-      "emailLabel": "General Inquiries",
-      "email": "info@sol-navis.hr"
+      "desc": "We are at your disposal for all inquiries regarding our services.",
+      "emailLabel": "General Inquiries"
     }
   },
   "footer": {

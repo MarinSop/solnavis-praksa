@@ -1,5 +1,6 @@
 import Seo from "@/components/Seo";
 import HeroSection from "./HeroSection";
+import GallerySection from "./GallerySection";
 
 const Investments = () => {
   return (
@@ -10,6 +11,7 @@ const Investments = () => {
         path="/investicije"
       />
       <HeroSection />
+      <GallerySection />
     </>
   );
 };

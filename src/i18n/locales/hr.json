@@ -67,11 +67,11 @@
       "title": "Tehničke usluge",
       "intervention": {
         "title": "Intervencije na moru",
-        "desc": "Brze intervencije i tegljenje plovila (YIC SEA ASSIST holder). Naš tim je spreman reagirati u najkraćem mogućem roku."
+        "desc": "Brze intervencije i tegljenje plovila. Naš tim je spreman reagirati u najkraćem mogućem roku."
       },
       "repair": {
         "title": "Popravci i održavanje",
-        "desc": "Kompletni popravci trupa, interijera, mehanike i elektrike. Ovlašteni REX i BOAT CARE partneri."
+        "desc": "Kompletni popravci trupa, interijera, mehanike i elektrike."
       },
       "assessment": {
         "title": "Procjena štete i vrijednosti",
@@ -102,7 +102,8 @@
     },
     "title": "Sol Navis Investicije",
     "subtitle": "Pouzdani partner za ulaganja u nekretnine na Jadranskoj obali i šire.",
-    "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta."
+    "desc": "Od idejnog rješenja do primopredaje ključeva, osiguravamo najviše standarde izvedbe i estetsku besprijekornost uz stručnu analizu tržišta.",
+    "cta": "Saznaj više"
   },
   "contact": {
     "inquiry": {
@@ -121,14 +122,10 @@
     },
     "info": {
       "hqLabel": "Ured",
-      "hqStreet": "STANKA VRAZA 15",
-      "hqCity": "21000 Split, Hrvatska",
       "showroomLabel": "Salon i izložbeni prostor",
-      "showroomStreet": "TRENKOVA 1",
-      "showroomCity": "Split",
       "phoneLabel": "Direktna linija",
-      "phone": "+385 (0) 98 173 2273",
       "phoneHours": "Pon - Pet: 09:00 - 17:00",
+      "country": "Hrvatska",
       "registryLabel": "Poslovni registar",
       "entity": "Naziv",
       "vatId": "VAT ID",
@@ -137,9 +134,8 @@
     },
     "hero": {
       "title": "Kontakt",
-      "desc": "Naši savjetnici stoje vam na raspolaganju za sve upite vezane uz luksuzne akvizicije i usluge.",
-      "emailLabel": "Središnji upiti",
-      "email": "info@sol-navis.hr"
+      "desc": "Stojimo vam na raspolaganju za sve upite vezane uz naše usluge.",
+      "emailLabel": "Središnji upiti"
     }
   },
   "footer": {

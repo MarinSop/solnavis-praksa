@@ -20,7 +20,7 @@ const HeroSection = () => {
             href={njuskaloUrlNautics}
             className="flex items-center gap-4 bg-primary text-secondary font-bold text-[14px] tracking-[1.4px] uppercase px-8 py-4"
           >
-            <img src={carIcon} />
+            <img src={carIcon} alt="" />
             {t("cars.hero.cta")}
           </a>
         </div>

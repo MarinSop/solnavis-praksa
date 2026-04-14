@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import { facebookUrl, instagramUrl, tiktokUrl } from "@/constants/urls";
+import { CONTACT } from "@/constants/contact";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -12,11 +13,11 @@ const Footer = () => {
   ];
 
   const companyInfo = [
-    "Primostenska 8",
-    "21 000 Split",
-    "Hrvatska",
-    "OIB: 55388833160",
-    "VAT ID: HR55388833160",
+    CONTACT.registeredStreet,
+    `${CONTACT.hqPostalCode} ${CONTACT.hqCity}`,
+    t("contact.info.country"),
+    `OIB: ${CONTACT.oib}`,
+    `VAT ID: ${CONTACT.vatId}`,
   ];
 
   return (
@@ -24,7 +25,7 @@ const Footer = () => {
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 text-center md:text-left justify-items-center md:justify-items-start">
         <div className="flex flex-col flex-1">
           <p className="font-bold text-[14px] tracking-[1.4px] uppercase text-white/60 leading-5">
-            Sol Navis d.o.o.
+            {CONTACT.entityLabel}
           </p>
           {companyInfo.map((info) => (
             <p
@@ -35,10 +36,10 @@ const Footer = () => {
             </p>
           ))}
           <a
-            href="mailto:info@sol-navis.hr"
+            href={`mailto:${CONTACT.email}`}
             className="text-[14px] text-primary lowercase leading-8"
           >
-            info@sol-navis.hr
+            {CONTACT.email}
           </a>
         </div>
 
@@ -51,7 +52,7 @@ const Footer = () => {
               {t("footer.office")}
             </p>
             <p className="text-[14px] tracking-[1.4px] uppercase text-white/40">
-              Stanka Vraza 15, Split
+              {CONTACT.hqStreet}, {CONTACT.hqCity}
             </p>
           </div>
           <div>
@@ -59,7 +60,7 @@ const Footer = () => {
               {t("footer.showroom")}
             </p>
             <p className="text-[14px] tracking-[1.4px] uppercase text-white/40">
-              Trenkova 1, Split
+              {CONTACT.showroomStreet}, {CONTACT.showroomCity}
             </p>
           </div>
         </div>
@@ -75,7 +76,7 @@ const Footer = () => {
             {t("nav.cars")}
           </Link>
           <Link
-            to="/jahte"
+            to="/nautika"
             className="text-[16px] text-white/40 hover:text-primary visited:text-white/40 transition-colors"
           >
             {t("nav.yachts")}
@@ -106,7 +107,7 @@ const Footer = () => {
 
       <div className="max-w-[1280px] mx-auto flex justify-between mt-16 pt-8 border-t border-white/5">
         <p className="text-[10px] tracking-[1px] uppercase text-white/20">
-          © Sol Navis d.o.o.
+          © {CONTACT.entityLabel}
         </p>
       </div>
     </footer>

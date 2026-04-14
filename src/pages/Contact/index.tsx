@@ -3,6 +3,7 @@ import ContactInfoSection from "./ContactInfoSection";
 import HeroSection from "./HeroSection";
 import InquirySection from "./InquirySection";
 import MapSection from "./MapSection";
+import { CONTACT } from "@/constants/contact";
 
 const Contact = () => {
   return (
@@ -14,15 +15,15 @@ const Contact = () => {
         jsonLd={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Sol Navis d.o.o.",
+          name: CONTACT.entity,
           url: "https://sol-navis.hr",
-          telephone: "+385 98 173 2273",
-          email: "info@sol-navis.hr",
+          telephone: CONTACT.phoneTel,
+          email: CONTACT.email,
           address: {
             "@type": "PostalAddress",
-            streetAddress: "Stanka Vraza 15",
-            postalCode: "21000",
-            addressLocality: "Split",
+            streetAddress: CONTACT.hqStreet,
+            postalCode: CONTACT.hqPostalCode,
+            addressLocality: CONTACT.hqCity,
             addressCountry: "HR",
           },
           openingHoursSpecification: {

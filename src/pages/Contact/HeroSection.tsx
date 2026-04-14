@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { CONTACT } from "@/constants/contact";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -16,9 +17,12 @@ const HeroSection = () => {
           <p className="text-[10px] uppercase tracking-[0.4em] text-primary mb-2">
             {t("contact.hero.emailLabel")}
           </p>
-          <p className="text-headline text-xl text-on-surface tracking-wide">
-            {t("contact.hero.email")}
-          </p>
+          <a
+            href={`mailto:${CONTACT.email}`}
+            className="text-headline text-xl text-on-surface tracking-wide hover:text-primary transition-colors"
+          >
+            {CONTACT.email}
+          </a>
         </div>
       </div>
     </section>

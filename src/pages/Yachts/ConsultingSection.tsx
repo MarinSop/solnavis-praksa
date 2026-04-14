@@ -21,7 +21,7 @@ const YachtsConsultingSection = () => {
     <section className="max-w-[1280px] mx-auto px-4 md:px-12 pt-8 md:pt-12 pb-16 md:pb-32 grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
       {/* Savjetovanje */}
       <div className="flex flex-col gap-6">
-        <img src={supportIcon} className="w-10 h-10" />
+        <img src={supportIcon} alt="" className="w-10 h-10" />
         <h3 className="font-serif font-bold text-[24px] text-headline">
           {t("yachts.consulting.title")}
         </h3>
@@ -43,7 +43,7 @@ const YachtsConsultingSection = () => {
 
       {/* Charter i Edukacija */}
       <div className="flex flex-col gap-6">
-        <img src={educationIcon} className="w-10 h-10" />
+        <img src={educationIcon} alt="" className="w-10 h-10" />
         <h3 className="font-serif font-bold text-[24px] text-headline">
           {t("yachts.charter.title")}
         </h3>
@@ -81,7 +81,7 @@ const YachtsConsultingSection = () => {
 
       {/* Partneri */}
       <div className="flex flex-col gap-6">
-        <img src={partnerIcon} className="w-10 h-10" />
+        <img src={partnerIcon} alt="" className="w-10 h-10" />
         <h3 className="font-serif font-bold text-[24px] text-headline">
           {t("yachts.partners.title")}
         </h3>

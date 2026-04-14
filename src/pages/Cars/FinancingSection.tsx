@@ -29,7 +29,7 @@ const FinancingSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {financingItems.map((item) => (
           <div key={item.titleKey} className="flex flex-col gap-4 flex-1">
-            <img src={item.icon} className="w-8 h-8" />
+            <img src={item.icon} alt="" className="w-8 h-8" />
             <h3 className="font-serif font-bold text-[20px] text-headline">
               {t(item.titleKey)}
             </h3>

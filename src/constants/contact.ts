@@ -1,0 +1,17 @@
+export const CONTACT = {
+  entity: "SOL NAVIS D.O.O.",
+  entityLabel: "Sol Navis d.o.o.",
+  phone: "+385 (0) 98 173 2273",
+  phoneTel: "+385981732273",
+  email: "info@sol-navis.hr",
+  vatId: "HR55388833160",
+  oib: "55388833160",
+  iban: "HR8123400091110413934",
+  swift: "PBZGHR2X",
+  hqStreet: "STANKA VRAZA 15",
+  hqPostalCode: "21000",
+  hqCity: "Split",
+  registeredStreet: "Primoštenska 8",
+  showroomStreet: "TRENKOVA 1",
+  showroomCity: "Split",
+};

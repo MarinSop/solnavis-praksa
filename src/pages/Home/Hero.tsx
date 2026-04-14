@@ -6,6 +6,7 @@ import investmentsImg from "../../assets/images/home/hero-investments.webp";
 const sections = [
   {
     img: carImg,
+    alt: "Rabljeni automobil",
     clip: "polygon(0 0, 35% 0, 25% 100%, 0 100%)",
     imgClass: "absolute left-0 top-0 w-[35%] h-full",
     objectPosition: "60% center",
@@ -13,6 +14,7 @@ const sections = [
   },
   {
     img: yachtImg,
+    alt: "Jahta na moru",
     clip: "polygon(35% 0, 75% 0, 65% 100%, 25% 100%)",
     imgClass: "absolute left-[25%] top-0 w-[50%] h-full",
     objectPosition: "center center",
@@ -20,6 +22,7 @@ const sections = [
   },
   {
     img: investmentsImg,
+    alt: "Investicije i nekretnine",
     clip: "polygon(75% 0, 100% 0, 100% 100%, 65% 100%)",
     imgClass: "absolute left-[65%] top-0 w-[35%] h-full",
     objectPosition: "center center",
@@ -41,6 +44,8 @@ const Hero = () => {
         >
           <img
             src={s.img}
+            alt={s.alt}
+            loading="eager"
             fetchPriority="high"
             className={`${s.imgClass} object-cover transition-all duration-700 ease-out`}
             style={{

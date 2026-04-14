@@ -14,11 +14,13 @@ import yachtsInMontenegro from "@assets/images/yachts/yachts-in-montenegro.webp"
 const partners = [
   {
     logo: yachtsInCroatia,
+    alt: "Yachts in Croatia logo",
     url: yachtsInCroatiaUrl,
     desc: "Sve o nautici i turizmu u Hrvatskoj",
   },
   {
     logo: yachtsInMontenegro,
+    alt: "Yachts in Montenegro logo",
     url: yachtsInMontenegorUrl,
     desc: "Sve o nautici i turizmu u Crnoj Gori",
   },
@@ -66,7 +68,7 @@ const AboutSection = () => {
               <a href={p.url} target="_blank" rel="noreferrer">
                 <img
                   src={p.logo}
-                  alt=""
+                  alt={p.alt}
                   className="max-w-xs bg-white block px-8 py-4 border-6 border-solid border-primary transition-transform duration-300 hover:scale-105"
                 />
               </a>
@@ -91,7 +93,7 @@ const AboutSection = () => {
             className="inline-flex items-center gap-4 bg-primary font-bold text-[14px] tracking-[1.6px] uppercase px-10 py-5"
           >
             {t("yachts.about.cta.btn")}
-            <img src={cartIcon} className="w-5 h-5" />
+            <img src={cartIcon} alt="" className="w-5 h-5" />
           </a>
         </div>
       </div>
@@ -104,7 +106,7 @@ const AboutSection = () => {
         {services.map((s) => (
           <div key={s.titleKey}>
             <div className="flex flex-row items-center gap-4">
-              <img src={s.icon} className="w-5 h-5" />
+              <img src={s.icon} alt="" className="w-5 h-5" />
               <h4 className="font-serif font-bold text-[20px] text-headline ">
                 {t(s.titleKey)}
               </h4>

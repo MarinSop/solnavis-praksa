@@ -9,6 +9,8 @@ const HeroSection = () => {
       <div className="max-w-[1280px] mx-auto">
         <img
           src={yachtHeroImg}
+          alt="Jahta na Jadranu"
+          loading="eager"
           fetchPriority="high"
           className="absolute inset-0 w-full h-full object-cover"
         />
