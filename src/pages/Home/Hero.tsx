@@ -1,7 +1,8 @@
 import { useState } from "react";
-import carImg from "../../assets/images/home/hero-car.webp";
-import yachtImg from "../../assets/images/home/hero-yacht.webp";
-import investmentsImg from "../../assets/images/home/hero-investments.webp";
+
+const carImg = "/hero-car.webp";
+const yachtImg = "/hero-yacht.webp";
+const investmentsImg = "/hero-investments.webp";
 
 const sections = [
   {
@@ -52,6 +53,7 @@ const Hero = () => {
               objectPosition: s.objectPosition,
               transform: hovered === s.index ? "scale(1.05)" : "scale(1)",
               filter: hovered === s.index ? "grayscale(0)" : "grayscale(1)",
+              willChange: "transform, filter",
             }}
           />
         </div>

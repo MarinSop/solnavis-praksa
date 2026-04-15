@@ -26,8 +26,8 @@ const CarsSection = () => {
           </a>
         </div>
         <div className="md:w-1/2">
-          <Link to="/automobili">
-            <CarCard img={maseratiImg} variant="default" />
+          <Link to="/automobili" aria-label="Pogledaj ponudu automobila">
+            <CarCard img={maseratiImg} name="Maserati" variant="default" />
           </Link>
         </div>
       </div>

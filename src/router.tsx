@@ -1,12 +1,20 @@
 import { createBrowserRouter } from "react-router";
+import { lazy, Suspense, type ComponentType } from "react";
 import Home from "./pages/Home";
 import RootLayout from "@layouts/RootLayout";
-import Cars from "./pages/Cars";
-import Yachts from "./pages/Yachts";
-import Investments from "./pages/Investments";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+
+const Cars = lazy(() => import("./pages/Cars"));
+const Yachts = lazy(() => import("./pages/Yachts"));
+const Investments = lazy(() => import("./pages/Investments"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
+
+const lazyRoute = (Component: ComponentType) => (
+  <Suspense fallback={null}>
+    <Component />
+  </Suspense>
+);
 
 export const router = createBrowserRouter([
   {
@@ -14,15 +22,12 @@ export const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <Error />,
     children: [
-      {
-        index: true,
-        element: <Home />,
-      },
-      { path: "automobili", element: <Cars /> },
-      { path: "nautika", element: <Yachts /> },
-      { path: "investicije", element: <Investments /> },
-      { path: "o-nama", element: <About /> },
-      { path: "kontakt", element: <Contact /> },
+      { index: true, element: <Home /> },
+      { path: "automobili", element: lazyRoute(Cars) },
+      { path: "nautika", element: lazyRoute(Yachts) },
+      { path: "investicije", element: lazyRoute(Investments) },
+      { path: "o-nama", element: lazyRoute(About) },
+      { path: "kontakt", element: lazyRoute(Contact) },
     ],
   },
 ]);
