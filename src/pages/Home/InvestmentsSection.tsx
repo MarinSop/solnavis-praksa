@@ -8,7 +8,7 @@ const InvestmentsSection = () => {
     <section className="mt-0 mb-16 max-w-[1280px] mx-auto px-6 lg:px-12">
       <div className="flex flex-col items-center gap-1 text-center">
         <Link to="/investicije">
-          <h2 className="font-serif font-bold text-5xl md:text-[96px] leading-none mb-3 text-headline">
+          <h2 className="font-serif font-bold text-5xl md:text-[96px] leading-none mb-3 text-primary">
             {t("investments.title")}
           </h2>
         </Link>

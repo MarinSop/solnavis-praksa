@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router";
 import { useTranslation } from "react-i18next";
-import logo from "../assets/icons/logo.png";
-import logoText from "../assets/icons/sol-navis-text.png";
-import logoTextCars from "../assets/icons/sol-navis-automobili-text.png";
-import logoTextYachts from "../assets/icons/sol-navis-nautika-text.png";
-import logoTextInvest from "../assets/icons/sol-navis-investicije-text.png";
+import logo from "../assets/icons/logo.webp";
+import logoText from "../assets/icons/sol-navis-text.webp";
+import logoTextCars from "../assets/icons/sol-navis-automobili-text.webp";
+import logoTextYachts from "../assets/icons/sol-navis-nautika-text.webp";
+import logoTextInvest from "../assets/icons/sol-navis-investicije-text.webp";
 
 const logoByPath: Record<string, string> = {
   "/automobili": logoTextCars,
@@ -45,11 +45,15 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 w-screen overflow-x-hidden bg-secondary/60 backdrop-blur-sm">
       <div className="h-16 flex items-center justify-between px-4">
         <Link to="/" className="flex gap-2 items-center">
-          <img src={logo} alt="Sol Navis logo" className="h-8 w-8" />
+          <img
+            src={logo}
+            alt="Sol Navis logo"
+            className="h-7 w-7 md:h-8 md:w-8"
+          />
           <img
             src={logoByPath[location.pathname] ?? logoText}
             alt="Sol Navis"
-            className="h-10 w-auto"
+            className="h-7 md:h-10 w-auto"
           />
         </Link>
 

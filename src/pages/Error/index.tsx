@@ -17,7 +17,8 @@ const Error = () => {
       <p className="text-text">{t("error.desc")}</p>
       <Link
         to="/"
-        className="mt-4 font-bold text-[14px] tracking-[1.6px] uppercase text-primary border-b border-primary pb-1"
+        style={{ backgroundColor: "#D4AF37", color: "#131313" }}
+        className="mt-4 hover:brightness-110 font-bold text-[14px] tracking-[1.6px] uppercase px-8 py-3 transition-all"
       >
         {t("error.back")}
       </Link>

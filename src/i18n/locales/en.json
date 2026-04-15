@@ -118,7 +118,10 @@
       "investments": "Investments",
       "messageLabel": "Your Message",
       "messagePlaceholder": "Describe your requirements...",
-      "submit": "Submit Inquiry"
+      "submit": "Submit Inquiry",
+      "sending": "Sending...",
+      "success": "Inquiry sent",
+      "error": "Error, please retry"
     },
     "info": {
       "hqLabel": "Office",

@@ -118,7 +118,10 @@
       "investments": "Investicije",
       "messageLabel": "Vaša poruka",
       "messagePlaceholder": "Opišite vaše zahtjeve...",
-      "submit": "Pošalji upit"
+      "submit": "Pošalji upit",
+      "sending": "Šaljem...",
+      "success": "Upit poslan",
+      "error": "Greška, pokušajte ponovno"
     },
     "info": {
       "hqLabel": "Ured",

@@ -16,7 +16,7 @@ const Home = () => {
           "@type": "Organization",
           name: "Sol Navis d.o.o.",
           url: "https://sol-navis.hr",
-          logo: "https://sol-navis.hr/logo.png",
+          logo: "https://sol-navis.hr/logo.webp",
           sameAs: [
             "https://yachtsincroatia.com",
             "https://yachtsinmontenegro.com",

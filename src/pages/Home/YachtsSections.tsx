@@ -69,7 +69,7 @@ const YachtsSection = () => {
             className={`absolute inset-0 bg-black transition-opacity duration-300 ${hovered ? "opacity-50" : "opacity-0"}`}
           />
           <Link
-            to="/jahte"
+            to="/nautika"
             className={`absolute inset-0 flex items-center justify-center transition-opacity duration-300 ${hovered ? "opacity-100" : "opacity-0"}`}
           >
             <span className="bg-primary text-secondary font-bold text-[14px] tracking-[1.6px] uppercase px-10 py-4">

@@ -4,7 +4,7 @@ const HeroSection = () => {
   const { t } = useTranslation();
 
   return (
-    <header className="max-w-7xl mx-auto px-6 lg:px-12 text-center my-16 md:my-32">
+    <header className="max-w-7xl mx-auto px-6 lg:px-12 text-center my-16 md:my-32 min-h-[60vh]">
       <h1 className="font-headline text-4xl md:text-6xl lg:text-8xl text-primary tracking-tighter leading-tight mb-6 md:mb-12">
         {t("about.hero.title")}
       </h1>

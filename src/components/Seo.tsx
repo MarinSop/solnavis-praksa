@@ -21,7 +21,7 @@ const Seo = ({
   jsonLd,
 }: SeoProps) => {
   const url = `${SITE_URL}${path}`;
-  const ogImage = image ?? `${SITE_URL}/logo.png`;
+  const ogImage = image ?? `${SITE_URL}/logo.webp`;
 
   return (
     <Helmet>
